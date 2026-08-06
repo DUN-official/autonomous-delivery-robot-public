@@ -93,7 +93,7 @@ All four methods were evaluated on the same 105 images, instructions, and correc
 | GPT Vision | 0.300 | 0.280 | 54.3% | 21.0% | 0 |
 | GPT-guided OWL-ViT | **0.473** | **0.573** | **78.1%** | **57.1%** | 2 |
 
-![Mean IoU across the four grounding methods](assets/screenshots/visual_grounding_mean_iou.png)
+![Mean IoU across the four grounding methods](assets/screenshots/visual_grounding_mean_iou.png)(assets/screenshots/visual_grounding_success_rates.png)
 
 Metric definitions and additional evaluation notes are in [docs/results_and_metrics.md](docs/results_and_metrics.md). The committed per-image outputs are under [modules/perception/visual_grounding/results/final](modules/perception/visual_grounding/results/final/README.md).
 
