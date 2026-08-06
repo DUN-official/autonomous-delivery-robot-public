@@ -1,0 +1,37 @@
+category_key,category,model_key,model,sample_count,scenario_count,mean_iou,median_iou,prediction_success_rate,primary_success_rate_iou_025,strict_success_rate_iou_050,target_correct_rate,relation_match_rate,source_csv
+all_prompts,All prompts,grounding_dino,Grounding DINO,105,35,0.17824312492429709,0.03770020533880904,1.0,0.20952380952380953,0.1619047619047619,0.20952380952380953,,examples/outputs/grounding_dino_results.csv
+all_prompts,All prompts,owlvit,OWL-ViT,105,35,0.343981249568548,0.08185467774994777,1.0,0.4380952380952381,0.4095238095238095,0.4380952380952381,,examples/outputs/owlvit_results.csv
+all_prompts,All prompts,gpt_vision,GPT Vision,105,35,0.2998437200149302,0.280237080940915,1.0,0.5428571428571428,0.20952380952380953,0.5428571428571428,,examples/outputs/gpt_vision_results.csv
+all_prompts,All prompts,gpt_guided_owlvit,GPT-guided OWL-ViT,105,35,0.4733519692284569,0.5727439302696452,0.9809523809523809,0.780952380952381,0.5714285714285714,,0.8857142857142857,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+simple_target,Direct target,grounding_dino,Grounding DINO,9,3,0.13796071673710394,0.04718630354691902,1.0,0.1111111111111111,0.1111111111111111,0.1111111111111111,,examples/outputs/grounding_dino_results.csv
+simple_target,Direct target,owlvit,OWL-ViT,9,3,0.17864384082247214,0.022492490860970327,1.0,0.2222222222222222,0.2222222222222222,0.2222222222222222,,examples/outputs/owlvit_results.csv
+simple_target,Direct target,gpt_vision,GPT Vision,9,3,0.2927013818655709,0.1780398322851153,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,,examples/outputs/gpt_vision_results.csv
+simple_target,Direct target,gpt_guided_owlvit,GPT-guided OWL-ViT,9,3,0.25119757696997186,0.0873128083792596,1.0,0.3333333333333333,0.2222222222222222,,0.4444444444444444,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+spatial_relation,Spatial relation,grounding_dino,Grounding DINO,81,27,0.16297076443078082,0.022152235763080622,1.0,0.19753086419753085,0.13580246913580246,0.19753086419753085,,examples/outputs/grounding_dino_results.csv
+spatial_relation,Spatial relation,owlvit,OWL-ViT,81,27,0.32615490699559324,0.06782691773880149,1.0,0.41975308641975306,0.38271604938271603,0.41975308641975306,,examples/outputs/owlvit_results.csv
+spatial_relation,Spatial relation,gpt_vision,GPT Vision,81,27,0.2808639334402755,0.27858953799844116,1.0,0.5432098765432098,0.16049382716049382,0.5432098765432098,,examples/outputs/gpt_vision_results.csv
+spatial_relation,Spatial relation,gpt_guided_owlvit,GPT-guided OWL-ViT,81,27,0.4791697861552125,0.5581333333333331,0.9753086419753086,0.8148148148148148,0.5679012345679012,,0.9753086419753086,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+attribute_selection,Attribute selection,grounding_dino,Grounding DINO,29,10,0.28191404667491915,0.0,1.0,0.3793103448275862,0.3103448275862069,0.3793103448275862,,examples/outputs/grounding_dino_results.csv
+attribute_selection,Attribute selection,owlvit,OWL-ViT,29,10,0.5133183706791953,0.7324704134272291,1.0,0.6206896551724138,0.6206896551724138,0.6206896551724138,,examples/outputs/owlvit_results.csv
+attribute_selection,Attribute selection,gpt_vision,GPT Vision,29,10,0.4052082928165536,0.34695962670767544,1.0,0.7586206896551724,0.3103448275862069,0.7586206896551724,,examples/outputs/gpt_vision_results.csv
+attribute_selection,Attribute selection,gpt_guided_owlvit,GPT-guided OWL-ViT,29,10,0.5779133451724305,0.6607179232393494,0.9655172413793104,0.8620689655172413,0.7931034482758621,,0.7931034482758621,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+multiple_reference_objects,Multiple references,grounding_dino,Grounding DINO,6,2,0.3048591826766605,0.1239971436972319,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,,examples/outputs/grounding_dino_results.csv
+multiple_reference_objects,Multiple references,owlvit,OWL-ViT,6,2,0.00670205889771724,0.0,1.0,0.0,0.0,0.0,,examples/outputs/owlvit_results.csv
+multiple_reference_objects,Multiple references,gpt_vision,GPT Vision,6,2,0.18393081039640155,0.14570372969714906,1.0,0.16666666666666666,0.0,0.16666666666666666,,examples/outputs/gpt_vision_results.csv
+multiple_reference_objects,Multiple references,gpt_guided_owlvit,GPT-guided OWL-ViT,6,2,0.6147279566610161,0.6539900849046089,1.0,1.0,0.8333333333333334,,1.0,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+multi_instance_or_ordinal,Multi-instance / ordinal,grounding_dino,Grounding DINO,12,4,0.08460148776435236,0.010153787205879792,1.0,0.08333333333333333,0.0,0.08333333333333333,,examples/outputs/grounding_dino_results.csv
+multi_instance_or_ordinal,Multi-instance / ordinal,owlvit,OWL-ViT,12,4,0.10943964010688909,0.06214625235831761,1.0,0.25,0.0,0.25,,examples/outputs/owlvit_results.csv
+multi_instance_or_ordinal,Multi-instance / ordinal,gpt_vision,GPT Vision,12,4,0.290979131894164,0.2882536191346562,1.0,0.5,0.08333333333333333,0.5,,examples/outputs/gpt_vision_results.csv
+multi_instance_or_ordinal,Multi-instance / ordinal,gpt_guided_owlvit,GPT-guided OWL-ViT,12,4,0.20024850475828615,0.17199065034430444,1.0,0.4166666666666667,0.0,,1.0,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+negation,Negation,grounding_dino,Grounding DINO,3,1,0.7107551281987153,0.734168629970729,1.0,1.0,1.0,1.0,,examples/outputs/grounding_dino_results.csv
+negation,Negation,owlvit,OWL-ViT,3,1,0.7378507788056784,0.7285642892839295,1.0,1.0,1.0,1.0,,examples/outputs/owlvit_results.csv
+negation,Negation,gpt_vision,GPT Vision,3,1,0.16467403584190868,0.17280453257790368,1.0,0.0,0.0,0.0,,examples/outputs/gpt_vision_results.csv
+negation,Negation,gpt_guided_owlvit,GPT-guided OWL-ViT,3,1,0.5997788657415989,0.6208216427500536,1.0,1.0,1.0,,1.0,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+occlusion,Occlusion,grounding_dino,Grounding DINO,3,1,0.022110701839245128,0.022152235763080622,1.0,0.0,0.0,0.0,,examples/outputs/grounding_dino_results.csv
+occlusion,Occlusion,owlvit,OWL-ViT,3,1,0.007591141610716056,0.0,1.0,0.0,0.0,0.0,,examples/outputs/owlvit_results.csv
+occlusion,Occlusion,gpt_vision,GPT Vision,3,1,0.0,0.0,1.0,0.0,0.0,0.0,,examples/outputs/gpt_vision_results.csv
+occlusion,Occlusion,gpt_guided_owlvit,GPT-guided OWL-ViT,3,1,0.2545649027447102,0.36979470823413146,1.0,0.6666666666666666,0.0,,1.0,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv
+complex_instruction,Complex instruction,grounding_dino,Grounding DINO,47,16,0.20610233598031538,0.0,1.0,0.2765957446808511,0.2127659574468085,0.2765957446808511,,examples/outputs/grounding_dino_results.csv
+complex_instruction,Complex instruction,owlvit,OWL-ViT,47,16,0.36538288492685805,0.13937463840256023,1.0,0.48936170212765956,0.425531914893617,0.48936170212765956,,examples/outputs/owlvit_results.csv
+complex_instruction,Complex instruction,gpt_vision,GPT Vision,47,16,0.2887886246924268,0.29577464788732394,1.0,0.5531914893617021,0.10638297872340426,0.5531914893617021,,examples/outputs/gpt_vision_results.csv
+complex_instruction,Complex instruction,gpt_guided_owlvit,GPT-guided OWL-ViT,47,16,0.4556660267891706,0.5447156718612173,0.9787234042553191,0.7659574468085106,0.5531914893617021,,0.9787234042553191,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv

@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autonomous-delivery-robot-grounding"
+version = "0.5.0"
+description = "Runtime image, language, and lightweight video grounding service"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+keywords = ["visual grounding", "robotics", "OWL-ViT", "YOLO", "FastAPI"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pydantic>=2.7,<3",
+    "Pillow>=10",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+service = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "httpx>=0.27",
+    "python-multipart>=0.0.9",
+]
+yolo = ["ultralytics>=8.3"]
+owlvit = [
+    "torch>=2.2",
+    "transformers>=4.45",
+    "accelerate>=0.34",
+]
+dino = [
+    "torch>=2.2",
+    "transformers>=4.45",
+    "accelerate>=0.34",
+]
+gpt = ["openai>=1.50"]
+evaluation = [
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+]
+provision = ["huggingface_hub>=0.24"]
+video = [
+    "opencv-contrib-python>=4.10",
+    "imageio-ffmpeg>=0.5",
+    "httpx>=0.27",
+]
+test = [
+    "pytest>=8",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+grounding-service = "grounding.cli:serve"
+ground-image = "grounding.cli:ground_image"
+grounding-provision-owlvit = "grounding.provisioning:provision_owlvit"
+grounding-provision-dino = "grounding.provisioning:provision_grounding_dino"
+grounding-benchmark = "grounding.benchmark:main"
+ground-video = "grounding.video_cli:ground_video"
+ground-camera = "grounding.video_cli:ground_camera"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+grounding = ["web/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

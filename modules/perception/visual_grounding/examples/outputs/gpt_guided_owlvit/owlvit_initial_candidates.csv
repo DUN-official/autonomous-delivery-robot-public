@@ -1,0 +1,292 @@
+image_id,candidate_id,label,score,threshold,x_min,y_min,x_max,y_max
+vid_res_001_man_in_lobby_by_door_frame_01,1,person,0.14215786755084991,0.05,986.0,279.0,1184.0,836.0
+vid_res_001_man_in_lobby_by_door_frame_02,1,person,0.13166479766368866,0.05,979.0,272.0,1171.0,830.0
+vid_res_001_man_in_lobby_by_door_frame_03,1,person,0.12475959956645966,0.05,1080.0,213.0,1250.0,753.0
+vid_res_002_girl_sitting_in_lounge_frame_01,1,person,0.09430769085884094,0.05,1153.0,292.0,1304.0,575.0
+vid_res_002_girl_sitting_in_lounge_frame_02,1,person,0.09973085671663284,0.05,1176.0,286.0,1337.0,583.0
+vid_res_002_girl_sitting_in_lounge_frame_03,1,person,0.10768530517816544,0.05,1198.0,280.0,1352.0,569.0
+vid_res_002_girl_sitting_in_lounge_frame_03,2,person girl sitting in lounge,0.05018743500113487,0.05,1188.0,291.0,1346.0,582.0
+vid_res_004_table_with_flower_on_top_frame_01,1,table,0.12229806184768677,0.05,1311.0,582.0,1711.0,1018.0
+vid_res_004_table_with_flower_on_top_frame_02,1,table,0.12229806184768677,0.05,1311.0,582.0,1711.0,1018.0
+vid_res_004_table_with_flower_on_top_frame_03,1,table,0.12675529718399048,0.05,1336.0,585.0,1775.0,1024.0
+vid_res_005_under_the_painting_frame_01,1,wall,0.03256506100296974,0.02,45.0,7.0,1026.0,1040.0
+vid_res_005_under_the_painting_frame_01,2,wall,0.024402426555752754,0.02,99.0,0.0,937.0,708.0
+vid_res_005_under_the_painting_frame_02,1,wall,0.028326120227575302,0.02,0.0,95.0,736.0,973.0
+vid_res_005_under_the_painting_frame_03,1,wall,0.025033939629793167,0.02,0.0,156.0,609.0,1079.0
+vid_res_006_man_by_the_elevator_green_shirt_frame_01,1,person,0.08877212554216385,0.05,825.0,137.0,1141.0,1079.0
+vid_res_006_man_by_the_elevator_green_shirt_frame_02,1,person,0.08487874269485474,0.05,820.0,133.0,1144.0,1079.0
+vid_res_006_man_by_the_elevator_green_shirt_frame_03,1,person,0.08877212554216385,0.05,825.0,137.0,1141.0,1079.0
+vid_res_007_man_standing_by_table_frame_01,1,person,0.1175159215927124,0.05,686.0,200.0,955.0,899.0
+vid_res_007_man_standing_by_table_frame_02,1,person,0.10706305503845215,0.05,685.0,192.0,947.0,968.0
+vid_res_007_man_standing_by_table_frame_03,1,person,0.1126672700047493,0.05,683.0,195.0,945.0,964.0
+vid_res_008_man_standing_by_water_dispenser_frame_01,1,person,0.12187463790178299,0.05,1017.0,279.0,1192.0,679.0
+vid_res_008_man_standing_by_water_dispenser_frame_01,2,person by water dispenser,0.06310106068849564,0.05,970.0,366.0,1040.0,466.0
+vid_res_008_man_standing_by_water_dispenser_frame_01,3,person near water dispenser,0.050792161375284195,0.05,967.0,467.0,1089.0,601.0
+vid_res_008_man_standing_by_water_dispenser_frame_01,4,person near water dispenser,0.05052884295582771,0.05,484.0,293.0,549.0,426.0
+vid_res_008_man_standing_by_water_dispenser_frame_02,1,person,0.13463568687438965,0.05,1100.0,251.0,1272.0,654.0
+vid_res_008_man_standing_by_water_dispenser_frame_02,2,person near water dispenser,0.07089029997587204,0.05,1044.0,443.0,1158.0,567.0
+vid_res_008_man_standing_by_water_dispenser_frame_02,3,person near water dispenser,0.05867796018719673,0.05,762.0,517.0,886.0,763.0
+vid_res_008_man_standing_by_water_dispenser_frame_02,4,person by water dispenser,0.05048459768295288,0.05,521.0,203.0,624.0,393.0
+vid_res_008_man_standing_by_water_dispenser_frame_03,1,person,0.13845941424369812,0.05,1118.0,240.0,1291.0,656.0
+vid_res_008_man_standing_by_water_dispenser_frame_03,2,person near water dispenser,0.09417605400085449,0.05,1056.0,444.0,1171.0,559.0
+vid_res_008_man_standing_by_water_dispenser_frame_03,3,person near water dispenser,0.06613042205572128,0.05,1073.0,328.0,1147.0,445.0
+vid_res_008_man_standing_by_water_dispenser_frame_03,4,person near water dispenser,0.05114002153277397,0.05,1697.0,276.0,1748.0,372.0
+vid_res_009_door_on_the_right_frame_01,1,hallway door,0.11997327208518982,0.05,689.0,32.0,1056.0,788.0
+vid_res_009_door_on_the_right_frame_01,2,door,0.11786026507616043,0.05,1230.0,0.0,1438.0,1009.0
+vid_res_009_door_on_the_right_frame_02,1,hallway door,0.12032615393400192,0.05,669.0,4.0,1044.0,791.0
+vid_res_009_door_on_the_right_frame_02,2,door,0.11062106490135193,0.05,1256.0,0.0,1450.0,1052.0
+vid_res_009_door_on_the_right_frame_02,3,door,0.05293884500861168,0.05,1236.0,70.0,1312.0,906.0
+vid_res_009_door_on_the_right_frame_03,1,hallway door,0.13028079271316528,0.05,614.0,0.0,999.0,791.0
+vid_res_009_door_on_the_right_frame_03,2,door,0.12034054100513458,0.05,1195.0,0.0,1432.0,1051.0
+vid_res_010_door_at_end_of_hallway_frame_01,1,door at hallway,0.12132684886455536,0.05,689.0,32.0,1056.0,788.0
+vid_res_010_door_at_end_of_hallway_frame_01,2,door,0.11786026507616043,0.05,1230.0,0.0,1438.0,1009.0
+vid_res_010_door_at_end_of_hallway_frame_02,1,hallway door,0.12032615393400192,0.05,669.0,4.0,1044.0,791.0
+vid_res_010_door_at_end_of_hallway_frame_02,2,door,0.11062106490135193,0.05,1256.0,0.0,1450.0,1052.0
+vid_res_010_door_at_end_of_hallway_frame_02,3,door,0.05293884500861168,0.05,1236.0,70.0,1312.0,906.0
+vid_res_010_door_at_end_of_hallway_frame_03,1,hallway door,0.13028079271316528,0.05,614.0,0.0,999.0,791.0
+vid_res_010_door_at_end_of_hallway_frame_03,2,door,0.12034054100513458,0.05,1195.0,0.0,1432.0,1051.0
+vid_res_010_door_at_end_of_hallway_frame_03,3,door by hallway,0.050355058163404465,0.05,485.0,6.0,1451.0,1079.0
+vid_res_011_door_with_sign_frame_01,1,hallway door,0.1662863940000534,0.05,742.0,0.0,1358.0,1072.0
+vid_res_011_door_with_sign_frame_01,2,hallway door,0.14331640303134918,0.05,254.0,2.0,681.0,998.0
+vid_res_011_door_with_sign_frame_01,3,door sign,0.0752539336681366,0.05,389.0,0.0,549.0,150.0
+vid_res_011_door_with_sign_frame_02,1,hallway door,0.17072752118110657,0.05,739.0,0.0,1351.0,1073.0
+vid_res_011_door_with_sign_frame_02,2,hallway door,0.15105083584785461,0.05,246.0,3.0,671.0,1006.0
+vid_res_011_door_with_sign_frame_02,3,door sign,0.07310109585523605,0.05,382.0,0.0,540.0,151.0
+vid_res_011_door_with_sign_frame_02,4,hallway door,0.054591745138168335,0.05,260.0,1.0,428.0,924.0
+vid_res_011_door_with_sign_frame_03,1,hallway door,0.1771215796470642,0.05,729.0,0.0,1348.0,1072.0
+vid_res_011_door_with_sign_frame_03,2,hallway door,0.15923258662223816,0.05,236.0,3.0,665.0,1007.0
+vid_res_011_door_with_sign_frame_03,3,door sign,0.0917644128203392,0.05,375.0,0.0,535.0,154.0
+vid_res_012_elevator_call_button_frame_01,1,elevator,0.09752780199050903,0.05,750.0,0.0,1649.0,1073.0
+vid_res_012_elevator_call_button_frame_01,2,elevator,0.07610367238521576,0.05,12.0,8.0,1874.0,1079.0
+vid_res_012_elevator_call_button_frame_01,3,elevator,0.0754026472568512,0.05,816.0,2.0,1919.0,1077.0
+vid_res_012_elevator_call_button_frame_01,4,elevator,0.05562502518296242,0.05,756.0,3.0,1213.0,1076.0
+vid_res_012_elevator_call_button_frame_02,1,elevator,0.08808860182762146,0.05,747.0,0.0,1733.0,1075.0
+vid_res_012_elevator_call_button_frame_02,2,elevator,0.07065413892269135,0.05,6.0,4.0,1895.0,1078.0
+vid_res_012_elevator_call_button_frame_02,3,elevator,0.05280322954058647,0.05,787.0,0.0,1234.0,1075.0
+vid_res_012_elevator_call_button_frame_03,1,elevator,0.11421606689691544,0.05,729.0,0.0,1659.0,1075.0
+vid_res_012_elevator_call_button_frame_03,2,elevator,0.0743669643998146,0.05,7.0,7.0,1885.0,1079.0
+vid_res_012_elevator_call_button_frame_03,3,elevator,0.06529369205236435,0.05,773.0,10.0,1241.0,1079.0
+vid_res_012_elevator_call_button_frame_03,4,elevator call button,0.05603373423218727,0.05,1591.0,144.0,1631.0,199.0
+vid_res_012_elevator_call_button_frame_03,5,elevator,0.05217297375202179,0.05,795.0,6.0,1919.0,1078.0
+vid_res_013_plant_on_table_frame_01,1,plant,0.26665180921554565,0.05,747.0,367.0,1175.0,825.0
+vid_res_013_plant_on_table_frame_01,2,plant,0.08796868473291397,0.05,974.0,632.0,1188.0,786.0
+vid_res_013_plant_on_table_frame_01,3,plant,0.08146229386329651,0.05,761.0,365.0,1122.0,701.0
+vid_res_013_plant_on_table_frame_02,1,plant,0.26665180921554565,0.05,747.0,367.0,1175.0,825.0
+vid_res_013_plant_on_table_frame_02,2,plant,0.08796868473291397,0.05,974.0,632.0,1188.0,786.0
+vid_res_013_plant_on_table_frame_02,3,plant,0.08146229386329651,0.05,761.0,365.0,1122.0,701.0
+vid_res_013_plant_on_table_frame_03,1,plant,0.26665180921554565,0.05,747.0,367.0,1175.0,825.0
+vid_res_013_plant_on_table_frame_03,2,plant,0.08796868473291397,0.05,974.0,632.0,1188.0,786.0
+vid_res_013_plant_on_table_frame_03,3,plant,0.08146229386329651,0.05,761.0,365.0,1122.0,701.0
+vid_res_014_package_by_the_chair_frame_01,1,box,0.1600019484758377,0.05,659.0,711.0,838.0,867.0
+vid_res_014_package_by_the_chair_frame_01,2,box,0.15198896825313568,0.05,460.0,683.0,692.0,863.0
+vid_res_014_package_by_the_chair_frame_01,3,box,0.08887943625450134,0.05,549.0,589.0,765.0,733.0
+vid_res_014_package_by_the_chair_frame_01,4,box,0.06828953325748444,0.05,444.0,597.0,800.0,862.0
+vid_res_014_package_by_the_chair_frame_01,5,cardboard box,0.06197032704949379,0.05,1249.0,486.0,1333.0,552.0
+vid_res_014_package_by_the_chair_frame_02,1,box,0.19018714129924774,0.05,678.0,747.0,880.0,932.0
+vid_res_014_package_by_the_chair_frame_02,2,box,0.1808738261461258,0.05,430.0,700.0,721.0,924.0
+vid_res_014_package_by_the_chair_frame_02,3,box,0.06893886625766754,0.05,539.0,598.0,781.0,775.0
+vid_res_014_package_by_the_chair_frame_03,1,box,0.21812701225280762,0.05,399.0,833.0,665.0,1047.0
+vid_res_014_package_by_the_chair_frame_03,2,box,0.17246322333812714,0.05,637.0,855.0,834.0,1054.0
+vid_res_014_package_by_the_chair_frame_03,3,box,0.16011227667331696,0.05,486.0,702.0,730.0,888.0
+vid_res_014_package_by_the_chair_frame_03,4,package,0.11544590443372726,0.05,1202.0,505.0,1278.0,584.0
+vid_res_014_package_by_the_chair_frame_03,5,cardboard box,0.11484905332326889,0.05,396.0,716.0,733.0,1052.0
+vid_res_015_package_on_the_chair_frame_01,1,box,0.23731964826583862,0.05,683.0,751.0,976.0,1009.0
+vid_res_015_package_on_the_chair_frame_01,2,box,0.18881617486476898,0.05,928.0,726.0,1160.0,927.0
+vid_res_015_package_on_the_chair_frame_01,3,box,0.15336015820503235,0.05,664.0,569.0,892.0,805.0
+vid_res_015_package_on_the_chair_frame_01,4,package,0.14002713561058044,0.05,959.0,360.0,1160.0,471.0
+vid_res_015_package_on_the_chair_frame_01,5,package,0.059966545552015305,0.05,934.0,724.0,1148.0,834.0
+vid_res_015_package_on_the_chair_frame_02,1,box,0.14842455089092255,0.05,705.0,722.0,993.0,969.0
+vid_res_015_package_on_the_chair_frame_02,2,box,0.14245235919952393,0.05,950.0,700.0,1174.0,892.0
+vid_res_015_package_on_the_chair_frame_02,3,box,0.13240984082221985,0.05,686.0,549.0,913.0,787.0
+vid_res_015_package_on_the_chair_frame_02,4,box,0.1287839561700821,0.05,968.0,339.0,1190.0,451.0
+vid_res_015_package_on_the_chair_frame_03,1,cardboard box,0.17401713132858276,0.05,725.0,752.0,1036.0,1021.0
+vid_res_015_package_on_the_chair_frame_03,2,box,0.13225558400154114,0.05,984.0,727.0,1219.0,939.0
+vid_res_015_package_on_the_chair_frame_03,3,box,0.10675007849931717,0.05,708.0,560.0,942.0,815.0
+vid_res_015_package_on_the_chair_frame_03,4,box,0.09869273751974106,0.05,1020.0,344.0,1228.0,470.0
+vid_res_016_packages_on_floor_frame_01,1,box,0.23731964826583862,0.05,683.0,751.0,976.0,1009.0
+vid_res_016_packages_on_floor_frame_01,2,box,0.18881617486476898,0.05,928.0,726.0,1160.0,927.0
+vid_res_016_packages_on_floor_frame_01,3,box,0.15336015820503235,0.05,664.0,569.0,892.0,805.0
+vid_res_016_packages_on_floor_frame_01,4,package,0.14002713561058044,0.05,959.0,360.0,1160.0,471.0
+vid_res_016_packages_on_floor_frame_01,5,package,0.059966545552015305,0.05,934.0,724.0,1148.0,834.0
+vid_res_016_packages_on_floor_frame_02,1,box,0.14842455089092255,0.05,705.0,722.0,993.0,969.0
+vid_res_016_packages_on_floor_frame_02,2,box,0.14245235919952393,0.05,950.0,700.0,1174.0,892.0
+vid_res_016_packages_on_floor_frame_02,3,box,0.13240984082221985,0.05,686.0,549.0,913.0,787.0
+vid_res_016_packages_on_floor_frame_02,4,box,0.1287839561700821,0.05,968.0,339.0,1190.0,451.0
+vid_res_016_packages_on_floor_frame_03,1,cardboard box,0.17401713132858276,0.05,725.0,752.0,1036.0,1021.0
+vid_res_016_packages_on_floor_frame_03,2,box,0.13225558400154114,0.05,984.0,727.0,1219.0,939.0
+vid_res_016_packages_on_floor_frame_03,3,box,0.10675007849931717,0.05,708.0,560.0,942.0,815.0
+vid_res_016_packages_on_floor_frame_03,4,box,0.09869273751974106,0.05,1020.0,344.0,1228.0,470.0
+vid_res_017_package_not_red_box_frame_01,1,box,0.1551896631717682,0.05,862.0,698.0,1025.0,860.0
+vid_res_017_package_not_red_box_frame_01,2,package not red,0.0967569500207901,0.05,732.0,665.0,845.0,873.0
+vid_res_017_package_not_red_box_frame_02,1,box,0.11694707721471786,0.05,905.0,576.0,1041.0,688.0
+vid_res_017_package_not_red_box_frame_02,2,cardboard box,0.059873439371585846,0.05,800.0,545.0,896.0,701.0
+vid_res_017_package_not_red_box_frame_03,1,box,0.15003648400306702,0.05,980.0,456.0,1137.0,586.0
+vid_res_017_package_not_red_box_frame_03,2,cardboard box,0.06598056852817535,0.05,872.0,421.0,978.0,606.0
+vid_res_018_package_hidden_by_chair_frame_01,1,box,0.12985436618328094,0.05,1170.0,598.0,1334.0,746.0
+vid_res_018_package_hidden_by_chair_frame_01,2,cardboard box,0.0949769988656044,0.05,1516.0,309.0,1726.0,472.0
+vid_res_018_package_hidden_by_chair_frame_01,3,box,0.08698589354753494,0.05,1039.0,617.0,1186.0,754.0
+vid_res_018_package_hidden_by_chair_frame_01,4,cardboard box,0.08420001715421677,0.05,1517.0,302.0,1709.0,392.0
+vid_res_018_package_hidden_by_chair_frame_01,5,cardboard box,0.08045684546232224,0.05,1404.0,131.0,1570.0,260.0
+vid_res_018_package_hidden_by_chair_frame_02,1,box,0.15581879019737244,0.05,1116.0,575.0,1285.0,725.0
+vid_res_018_package_hidden_by_chair_frame_02,2,box,0.15021739900112152,0.05,1473.0,275.0,1700.0,425.0
+vid_res_018_package_hidden_by_chair_frame_02,3,cardboard box,0.11522534489631653,0.05,1361.0,109.0,1533.0,231.0
+vid_res_018_package_hidden_by_chair_frame_02,4,box,0.10968726128339767,0.05,1176.0,356.0,1309.0,428.0
+vid_res_018_package_hidden_by_chair_frame_02,5,box,0.1073283925652504,0.05,997.0,589.0,1141.0,718.0
+vid_res_018_package_hidden_by_chair_frame_03,1,box,0.11485939472913742,0.05,1095.0,569.0,1267.0,720.0
+vid_res_018_package_hidden_by_chair_frame_03,2,box,0.0898468941450119,0.05,1163.0,351.0,1285.0,416.0
+vid_res_018_package_hidden_by_chair_frame_03,3,box,0.07979834824800491,0.05,997.0,587.0,1118.0,713.0
+vid_res_018_package_hidden_by_chair_frame_03,4,box,0.07886112481355667,0.05,1453.0,274.0,1675.0,425.0
+vid_res_018_package_hidden_by_chair_frame_03,5,package by chair,0.07651565223932266,0.05,1231.0,191.0,1919.0,979.0
+vid_res_019_package_on_chair_frame_01,1,box,0.23731964826583862,0.05,683.0,751.0,976.0,1009.0
+vid_res_019_package_on_chair_frame_01,2,box,0.18881617486476898,0.05,928.0,726.0,1160.0,927.0
+vid_res_019_package_on_chair_frame_01,3,box,0.15336015820503235,0.05,664.0,569.0,892.0,805.0
+vid_res_019_package_on_chair_frame_01,4,package,0.14002713561058044,0.05,959.0,360.0,1160.0,471.0
+vid_res_019_package_on_chair_frame_01,5,package,0.059966545552015305,0.05,934.0,724.0,1148.0,834.0
+vid_res_019_package_on_chair_frame_02,1,box,0.14842455089092255,0.05,705.0,722.0,993.0,969.0
+vid_res_019_package_on_chair_frame_02,2,box,0.14245235919952393,0.05,950.0,700.0,1174.0,892.0
+vid_res_019_package_on_chair_frame_02,3,box,0.13240984082221985,0.05,686.0,549.0,913.0,787.0
+vid_res_019_package_on_chair_frame_02,4,box,0.1287839561700821,0.05,968.0,339.0,1190.0,451.0
+vid_res_019_package_on_chair_frame_03,1,cardboard box,0.17401713132858276,0.05,725.0,752.0,1036.0,1021.0
+vid_res_019_package_on_chair_frame_03,2,box,0.13225558400154114,0.05,984.0,727.0,1219.0,939.0
+vid_res_019_package_on_chair_frame_03,3,box,0.10675007849931717,0.05,708.0,560.0,942.0,815.0
+vid_res_019_package_on_chair_frame_03,4,box,0.09869273751974106,0.05,1020.0,344.0,1228.0,470.0
+vid_res_020_package_on_table_frame_01,1,box,0.167246475815773,0.05,763.0,53.0,1038.0,195.0
+vid_res_020_package_on_table_frame_01,2,cardboard box,0.14509211480617523,0.05,971.0,894.0,1192.0,1056.0
+vid_res_020_package_on_table_frame_01,3,cardboard box,0.09194428473711014,0.05,584.0,331.0,764.0,497.0
+vid_res_020_package_on_table_frame_02,1,cardboard box,0.13601292669773102,0.05,956.0,838.0,1149.0,966.0
+vid_res_020_package_on_table_frame_02,2,box,0.1236444041132927,0.05,723.0,73.0,968.0,204.0
+vid_res_020_package_on_table_frame_02,3,box,0.0819781944155693,0.05,571.0,339.0,758.0,485.0
+vid_res_020_package_on_table_frame_03,1,box,0.14000515639781952,0.05,778.0,40.0,1040.0,186.0
+vid_res_020_package_on_table_frame_03,2,cardboard box,0.13586074113845825,0.05,935.0,905.0,1160.0,1077.0
+vid_res_021_package_on_chair_frame_01,1,box,0.167246475815773,0.05,763.0,53.0,1038.0,195.0
+vid_res_021_package_on_chair_frame_01,2,cardboard box,0.14509211480617523,0.05,971.0,894.0,1192.0,1056.0
+vid_res_021_package_on_chair_frame_01,3,cardboard box,0.09194428473711014,0.05,584.0,331.0,764.0,497.0
+vid_res_021_package_on_chair_frame_02,1,cardboard box,0.13601292669773102,0.05,956.0,838.0,1149.0,966.0
+vid_res_021_package_on_chair_frame_02,2,box,0.1236444041132927,0.05,723.0,73.0,968.0,204.0
+vid_res_021_package_on_chair_frame_02,3,box,0.0819781944155693,0.05,571.0,339.0,758.0,485.0
+vid_res_021_package_on_chair_frame_03,1,box,0.14000515639781952,0.05,778.0,40.0,1040.0,186.0
+vid_res_021_package_on_chair_frame_03,2,cardboard box,0.13586074113845825,0.05,935.0,905.0,1160.0,1077.0
+vid_res_022_package_on_floor_frame_01,1,box,0.167246475815773,0.05,763.0,53.0,1038.0,195.0
+vid_res_022_package_on_floor_frame_01,2,cardboard box,0.14509211480617523,0.05,971.0,894.0,1192.0,1056.0
+vid_res_022_package_on_floor_frame_01,3,cardboard box,0.09194428473711014,0.05,584.0,331.0,764.0,497.0
+vid_res_022_package_on_floor_frame_02,1,cardboard box,0.13601292669773102,0.05,956.0,838.0,1149.0,966.0
+vid_res_022_package_on_floor_frame_02,2,box,0.1236444041132927,0.05,723.0,73.0,968.0,204.0
+vid_res_022_package_on_floor_frame_02,3,box,0.0819781944155693,0.05,571.0,339.0,758.0,485.0
+vid_res_022_package_on_floor_frame_03,1,box,0.14000515639781952,0.05,778.0,40.0,1040.0,186.0
+vid_res_022_package_on_floor_frame_03,2,cardboard box,0.13586074113845825,0.05,935.0,905.0,1160.0,1077.0
+vid_res_023_package_infront_of_the_books_frame_01,1,box,0.1644097864627838,0.05,15.0,34.0,659.0,544.0
+vid_res_023_package_infront_of_the_books_frame_01,2,box,0.12161699682474136,0.05,482.0,499.0,720.0,697.0
+vid_res_023_package_infront_of_the_books_frame_01,3,cardboard box,0.11228993535041809,0.05,979.0,445.0,1247.0,722.0
+vid_res_023_package_infront_of_the_books_frame_01,4,box,0.10962164402008057,0.05,267.0,524.0,556.0,780.0
+vid_res_023_package_infront_of_the_books_frame_01,5,box,0.08779743313789368,0.05,543.0,265.0,1085.0,662.0
+vid_res_023_package_infront_of_the_books_frame_02,1,box,0.15753114223480225,0.05,0.0,41.0,640.0,564.0
+vid_res_023_package_infront_of_the_books_frame_02,2,cardboard box,0.12182799726724625,0.05,263.0,538.0,559.0,803.0
+vid_res_023_package_infront_of_the_books_frame_02,3,box,0.11564096808433533,0.05,449.0,505.0,715.0,711.0
+vid_res_023_package_infront_of_the_books_frame_02,4,cardboard box,0.10614114254713058,0.05,974.0,446.0,1248.0,719.0
+vid_res_023_package_infront_of_the_books_frame_02,5,box,0.09122011810541153,0.05,547.0,268.0,1158.0,694.0
+vid_res_023_package_infront_of_the_books_frame_03,1,box,0.15126073360443115,0.05,3.0,28.0,639.0,581.0
+vid_res_023_package_infront_of_the_books_frame_03,2,box,0.12082172930240631,0.05,238.0,532.0,565.0,822.0
+vid_res_023_package_infront_of_the_books_frame_03,3,cardboard box,0.11484774947166443,0.05,990.0,432.0,1286.0,721.0
+vid_res_023_package_infront_of_the_books_frame_03,4,box,0.10278979688882828,0.05,536.0,268.0,1162.0,695.0
+vid_res_023_package_infront_of_the_books_frame_03,5,box,0.07982189208269119,0.05,444.0,513.0,718.0,719.0
+vid_res_024_package_between_books_and_shoes_frame_01,1,box,0.1644097864627838,0.05,15.0,34.0,659.0,544.0
+vid_res_024_package_between_books_and_shoes_frame_01,2,box,0.12161699682474136,0.05,482.0,499.0,720.0,697.0
+vid_res_024_package_between_books_and_shoes_frame_01,3,cardboard box,0.11228993535041809,0.05,979.0,445.0,1247.0,722.0
+vid_res_024_package_between_books_and_shoes_frame_01,4,box,0.10962164402008057,0.05,267.0,524.0,556.0,780.0
+vid_res_024_package_between_books_and_shoes_frame_01,5,box,0.08779743313789368,0.05,543.0,265.0,1085.0,662.0
+vid_res_024_package_between_books_and_shoes_frame_02,1,box,0.15753114223480225,0.05,0.0,41.0,640.0,564.0
+vid_res_024_package_between_books_and_shoes_frame_02,2,cardboard box,0.12182799726724625,0.05,263.0,538.0,559.0,803.0
+vid_res_024_package_between_books_and_shoes_frame_02,3,box,0.11564096808433533,0.05,449.0,505.0,715.0,711.0
+vid_res_024_package_between_books_and_shoes_frame_02,4,cardboard box,0.10614114254713058,0.05,974.0,446.0,1248.0,719.0
+vid_res_024_package_between_books_and_shoes_frame_02,5,box,0.09122011810541153,0.05,547.0,268.0,1158.0,694.0
+vid_res_024_package_between_books_and_shoes_frame_03,1,box,0.15126073360443115,0.05,3.0,28.0,639.0,581.0
+vid_res_024_package_between_books_and_shoes_frame_03,2,box,0.12082172930240631,0.05,238.0,532.0,565.0,822.0
+vid_res_024_package_between_books_and_shoes_frame_03,3,cardboard box,0.11484774947166443,0.05,990.0,432.0,1286.0,721.0
+vid_res_024_package_between_books_and_shoes_frame_03,4,box,0.10278979688882828,0.05,536.0,268.0,1162.0,695.0
+vid_res_024_package_between_books_and_shoes_frame_03,5,box,0.07982189208269119,0.05,444.0,513.0,718.0,719.0
+vid_res_025_package_by_elevator_frame_01,1,cardboard box,0.04425618797540665,0.02,463.0,521.0,564.0,611.0
+vid_res_025_package_by_elevator_frame_01,2,package by elevator,0.03826344385743141,0.02,359.0,1.0,472.0,297.0
+vid_res_025_package_by_elevator_frame_01,3,package near elevator,0.02541254833340645,0.02,1274.0,515.0,1437.0,631.0
+vid_res_025_package_by_elevator_frame_01,4,package by elevator,0.023274585604667664,0.02,176.0,0.0,492.0,653.0
+vid_res_025_package_by_elevator_frame_02,1,cardboard box,0.05459185317158699,0.05,546.0,618.0,643.0,701.0
+vid_res_025_package_by_elevator_frame_03,1,cardboard box,0.06175270676612854,0.05,543.0,611.0,636.0,695.0
+vid_res_026_package_by_wall_frame_01,1,cardboard box,0.04425618797540665,0.02,463.0,521.0,564.0,611.0
+vid_res_026_package_by_wall_frame_02,1,cardboard box,0.05459185317158699,0.05,546.0,618.0,643.0,701.0
+vid_res_026_package_by_wall_frame_03,1,cardboard box,0.06175270676612854,0.05,543.0,611.0,636.0,695.0
+vid_res_027_package_on_table_frame_01,1,desk,0.14124414324760437,0.05,712.0,300.0,1437.0,790.0
+vid_res_027_package_on_table_frame_01,2,table,0.12415474653244019,0.05,711.0,294.0,1458.0,480.0
+vid_res_027_package_on_table_frame_01,3,table,0.07598719745874405,0.05,12.0,514.0,1919.0,1079.0
+vid_res_027_package_on_table_frame_01,4,desk,0.0506533682346344,0.05,767.0,272.0,1461.0,745.0
+vid_res_027_package_on_table_frame_02,1,table,0.15470202267169952,0.05,623.0,325.0,1412.0,894.0
+vid_res_027_package_on_table_frame_02,2,desk,0.1151851937174797,0.05,609.0,312.0,1880.0,1074.0
+vid_res_027_package_on_table_frame_02,3,table,0.08077403157949448,0.05,647.0,325.0,1416.0,520.0
+vid_res_027_package_on_table_frame_03,1,table,0.17112617194652557,0.05,634.0,335.0,1390.0,837.0
+vid_res_027_package_on_table_frame_03,2,desk,0.07471483945846558,0.05,632.0,349.0,1365.0,782.0
+vid_res_027_package_on_table_frame_03,3,table packages on,0.06479249894618988,0.05,624.0,334.0,1382.0,484.0
+vid_res_028_package_by_door_right_frame_01,1,cardboard box,0.20073634386062622,0.05,627.0,773.0,795.0,882.0
+vid_res_028_package_by_door_right_frame_01,2,cardboard box,0.10804737359285355,0.05,969.0,679.0,1099.0,824.0
+vid_res_028_package_by_door_right_frame_02,1,cardboard box,0.2618221044540405,0.05,641.0,796.0,806.0,903.0
+vid_res_028_package_by_door_right_frame_02,2,cardboard box,0.12267880886793137,0.05,974.0,711.0,1101.0,843.0
+vid_res_028_package_by_door_right_frame_03,1,cardboard box,0.2130313366651535,0.05,631.0,780.0,799.0,890.0
+vid_res_028_package_by_door_right_frame_03,2,cardboard box,0.18669866025447845,0.05,960.0,682.0,1097.0,830.0
+vid_res_029_package_by_door_left_frame_01,1,cardboard box,0.13450995087623596,0.05,796.0,635.0,938.0,742.0
+vid_res_029_package_by_door_left_frame_01,2,box,0.06790176779031754,0.05,692.0,825.0,859.0,935.0
+vid_res_029_package_by_door_left_frame_02,1,cardboard box,0.13390450179576874,0.05,781.0,650.0,911.0,747.0
+vid_res_029_package_by_door_left_frame_03,1,cardboard box,0.10541336238384247,0.05,798.0,613.0,950.0,716.0
+vid_res_029_package_by_door_left_frame_03,2,box,0.06634365022182465,0.05,716.0,790.0,873.0,889.0
+vid_res_030_second_closest_package_frame_01,1,cardboard box,0.13450995087623596,0.05,796.0,635.0,938.0,742.0
+vid_res_030_second_closest_package_frame_01,2,box,0.06790176779031754,0.05,692.0,825.0,859.0,935.0
+vid_res_030_second_closest_package_frame_02,1,cardboard box,0.13390450179576874,0.05,781.0,650.0,911.0,747.0
+vid_res_030_second_closest_package_frame_03,1,cardboard box,0.10541336238384247,0.05,798.0,613.0,950.0,716.0
+vid_res_030_second_closest_package_frame_03,2,box,0.06634365022182465,0.05,716.0,790.0,873.0,889.0
+vid_res_031_package_in_front_frame_01,1,cardboard box,0.13450995087623596,0.05,796.0,635.0,938.0,742.0
+vid_res_031_package_in_front_frame_01,2,box,0.06790176779031754,0.05,692.0,825.0,859.0,935.0
+vid_res_031_package_in_front_frame_02,1,cardboard box,0.13390450179576874,0.05,781.0,650.0,911.0,747.0
+vid_res_031_package_in_front_frame_03,1,cardboard box,0.10541336238384247,0.05,798.0,613.0,950.0,716.0
+vid_res_031_package_in_front_frame_03,2,box,0.06634365022182465,0.05,716.0,790.0,873.0,889.0
+vid_res_032_packages_by_chair_frame_01,1,chair,0.14959630370140076,0.05,1536.0,303.0,1839.0,785.0
+vid_res_032_packages_by_chair_frame_01,2,chair,0.13358627259731293,0.05,1093.0,306.0,1335.0,723.0
+vid_res_032_packages_by_chair_frame_02,1,chair,0.17036530375480652,0.05,1502.0,336.0,1790.0,805.0
+vid_res_032_packages_by_chair_frame_02,2,chair,0.12484411895275116,0.05,1073.0,350.0,1303.0,745.0
+vid_res_032_packages_by_chair_frame_03,1,chair,0.16854214668273926,0.05,1525.0,309.0,1819.0,787.0
+vid_res_032_packages_by_chair_frame_03,2,chair,0.14019258320331573,0.05,1074.0,311.0,1312.0,728.0
+vid_res_032_packages_by_chair_frame_03,3,chair,0.05820317193865776,0.05,1194.0,295.0,1563.0,769.0
+vid_res_033_man_in_blue_frame_01,1,person,0.04595394432544708,0.02,29.0,285.0,218.0,862.0
+vid_res_033_man_in_blue_frame_01,2,person,0.043271515518426895,0.02,250.0,347.0,412.0,664.0
+vid_res_033_man_in_blue_frame_01,3,person,0.041997868567705154,0.02,887.0,236.0,1171.0,1018.0
+vid_res_033_man_in_blue_frame_01,4,person,0.04170801490545273,0.02,386.0,272.0,657.0,920.0
+vid_res_033_man_in_blue_frame_01,5,person,0.04047878086566925,0.02,650.0,311.0,814.0,814.0
+vid_res_033_man_in_blue_frame_02,1,person,0.05201582610607147,0.05,441.0,284.0,711.0,931.0
+vid_res_033_man_in_blue_frame_03,1,person,0.04468522593379021,0.02,1520.0,358.0,1665.0,676.0
+vid_res_033_man_in_blue_frame_03,2,person,0.04004965350031853,0.02,200.0,301.0,416.0,976.0
+vid_res_033_man_in_blue_frame_03,3,person,0.0387638695538044,0.02,489.0,362.0,637.0,676.0
+vid_res_033_man_in_blue_frame_03,4,person,0.03764942288398743,0.02,0.0,214.0,291.0,1075.0
+vid_res_033_man_in_blue_frame_03,5,person,0.03708680719137192,0.02,871.0,341.0,1038.0,862.0
+vid_res_034_man_in_grey_frame_01,1,person man in grey,0.06546766310930252,0.05,892.0,234.0,1174.0,1017.0
+vid_res_034_man_in_grey_frame_01,2,person man in grey,0.061614200472831726,0.05,385.0,273.0,661.0,924.0
+vid_res_034_man_in_grey_frame_02,1,person man in grey,0.06734125316143036,0.05,990.0,250.0,1279.0,1036.0
+vid_res_034_man_in_grey_frame_02,2,person man in grey,0.062384892255067825,0.05,497.0,290.0,761.0,933.0
+vid_res_034_man_in_grey_frame_03,1,person man in grey,0.07425782084465027,0.05,1106.0,256.0,1415.0,1056.0
+vid_res_034_man_in_grey_frame_03,2,person man in grey,0.06970356404781342,0.05,0.0,214.0,291.0,1075.0
+vid_res_034_man_in_grey_frame_03,3,person man in grey,0.061134472489356995,0.05,632.0,303.0,889.0,940.0
+vid_res_035_woman_white_top_frame_01,1,person,0.049350555986166,0.02,32.0,285.0,223.0,859.0
+vid_res_035_woman_white_top_frame_01,2,person,0.046604424715042114,0.02,385.0,273.0,661.0,924.0
+vid_res_035_woman_white_top_frame_01,3,person,0.04518929123878479,0.02,892.0,234.0,1174.0,1017.0
+vid_res_035_woman_white_top_frame_01,4,person,0.043614599853754044,0.02,257.0,348.0,418.0,668.0
+vid_res_035_woman_white_top_frame_01,5,person,0.04288517311215401,0.02,1288.0,340.0,1413.0,638.0
+vid_res_035_woman_white_top_frame_02,1,person,0.04464446380734444,0.02,50.0,285.0,293.0,1005.0
+vid_res_035_woman_white_top_frame_02,2,person woman white top,0.043771710246801376,0.02,919.0,390.0,992.0,465.0
+vid_res_035_woman_white_top_frame_02,3,person,0.042599160224199295,0.02,1393.0,356.0,1521.0,652.0
+vid_res_035_woman_white_top_frame_02,4,person,0.039058618247509,0.02,922.0,377.0,1009.0,596.0
+vid_res_035_woman_white_top_frame_02,5,person,0.03802391141653061,0.02,750.0,328.0,915.0,847.0
+vid_res_035_woman_white_top_frame_03,1,person,0.04466733708977699,0.02,1520.0,358.0,1665.0,677.0
+vid_res_035_woman_white_top_frame_03,2,person,0.03988579660654068,0.02,200.0,301.0,416.0,974.0
+vid_res_035_woman_white_top_frame_03,3,person,0.03867106884717941,0.02,490.0,362.0,637.0,676.0
+vid_res_035_woman_white_top_frame_03,4,person,0.037666693329811096,0.02,0.0,214.0,291.0,1075.0
+vid_res_035_woman_white_top_frame_03,5,person,0.03702899441123009,0.02,870.0,342.0,1038.0,862.0
+vid_res_036_elevator_button_panel_frame_01,1,elevator button,0.026844818145036697,0.02,900.0,234.0,1026.0,303.0
+vid_res_036_elevator_button_panel_frame_01,2,button panel,0.025935659185051918,0.02,815.0,2.0,1269.0,1074.0
+vid_res_036_elevator_button_panel_frame_01,3,button panel,0.024874510243535042,0.02,865.0,189.0,1206.0,1032.0
+vid_res_036_elevator_button_panel_frame_01,4,elevator button,0.02198825776576996,0.02,1049.0,232.0,1178.0,297.0
+vid_res_036_elevator_button_panel_frame_02,1,button panel,0.05815167352557182,0.05,890.0,296.0,1046.0,861.0
+vid_res_036_elevator_button_panel_frame_03,1,button panel,0.040402136743068695,0.02,1041.0,255.0,1252.0,886.0

@@ -1,0 +1,5 @@
+model_key,model_name,rows,successful_predictions,prediction_failures,mean_iou,median_iou,weak_rate_iou_010,primary_rate_iou_025,strict_rate_iou_050,source_csv
+grounding_dino,Grounding DINO,105,105,0,0.17824312492429709,0.03770020533880904,0.3238095238095238,0.20952380952380953,0.1619047619047619,examples/outputs/grounding_dino_results.csv
+owlvit,OWL-ViT,105,105,0,0.343981249568548,0.08185467774994777,0.4857142857142857,0.4380952380952381,0.4095238095238095,examples/outputs/owlvit_results.csv
+gpt_vision,GPT Vision,105,105,0,0.2998437200149302,0.280237080940915,0.7904761904761904,0.5428571428571428,0.20952380952380953,examples/outputs/gpt_vision_results.csv
+gpt_guided_owlvit,GPT-guided OWL-ViT,105,103,2,0.4733519692284569,0.5727439302696452,0.819047619047619,0.780952380952381,0.5714285714285714,examples/outputs/gpt_guided_owlvit/gpt_guided_owlvit_results.csv

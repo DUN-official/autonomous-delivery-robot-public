@@ -1,0 +1,285 @@
+# ============================================================
+# Autonomous Delivery Robot - .gitignore
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Python bytecode / cache
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+
+# ------------------------------------------------------------
+# C extensions / compiled files
+# ------------------------------------------------------------
+*.so
+*.dll
+*.dylib
+
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ------------------------------------------------------------
+# Python packaging / build outputs
+# ------------------------------------------------------------
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ------------------------------------------------------------
+# ROS2 / colcon workspace build outputs
+# ------------------------------------------------------------
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+build/
+install/
+log/
+
+.colcon/
+
+
+# ------------------------------------------------------------
+# ROS bag files / recorded robot data
+# ------------------------------------------------------------
+*.bag
+*.db3
+*.mcap
+rosbags/
+bagfiles/
+
+
+# ------------------------------------------------------------
+# Gazebo / simulation cache and logs
+# ------------------------------------------------------------
+.gazebo/
+gzserver.log
+gzclient.log
+ogre.log
+*.state
+
+
+# ------------------------------------------------------------
+# RViz / temporary visualization configs
+# Keep polished portfolio RViz configs if intentionally added.
+# ------------------------------------------------------------
+*.rviz.tmp
+
+
+# ------------------------------------------------------------
+# Large model/checkpoint files
+# Keep model notes/README files, but avoid pushing heavy weights.
+# ------------------------------------------------------------
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.weights
+checkpoints/
+weights/
+
+
+# ------------------------------------------------------------
+# YOLO / ML training outputs
+# ------------------------------------------------------------
+runs/
+wandb/
+mlruns/
+experiments/
+results/
+outputs/
+
+
+# ------------------------------------------------------------
+# Large datasets / raw data
+# Keep small examples only.
+# ------------------------------------------------------------
+data/raw/
+data/processed/
+datasets/
+dataset/
+roboflow/
+annotations/raw/
+images/raw/
+videos/raw/
+
+
+# ------------------------------------------------------------
+# Large media files
+# Keep small screenshots and diagrams for README.
+# ------------------------------------------------------------
+assets/videos/*.mp4
+assets/videos/*.mov
+assets/videos/*.avi
+assets/videos/*.mkv
+assets/videos/*.wmv
+
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+
+
+# ------------------------------------------------------------
+# Jupyter / IPython
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+
+# ------------------------------------------------------------
+# Testing / coverage
+# ------------------------------------------------------------
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+
+# ------------------------------------------------------------
+# Type checkers / linters
+# ------------------------------------------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+
+# ------------------------------------------------------------
+# IDE / editor files
+# ------------------------------------------------------------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+tempCodeRunnerFile.py
+
+
+# ------------------------------------------------------------
+# OS-generated files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ------------------------------------------------------------
+# Local secrets / credentials
+# ------------------------------------------------------------
+*.pem
+*.key
+*.crt
+credentials.json
+token.json
+secrets.json
+.streamlit/secrets.toml
+
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+*.log
+logs/
+
+
+# ------------------------------------------------------------
+# Local databases
+# ------------------------------------------------------------
+*.sqlite
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+
+# ------------------------------------------------------------
+# Documentation build outputs
+# ------------------------------------------------------------
+docs/_build/
+site/
+public/
+
+
+# ------------------------------------------------------------
+# Temporary / scratch work
+# ------------------------------------------------------------
+scratch/
+tmp/
+temp/
+
+
+# ------------------------------------------------------------
+# Files that SHOULD remain tracked
+# Do not ignore:
+# README.md
+# docs/
+# modules/
+# ros2_ws/README.md
+# models/README.md
+# notebooks/README.md
+# demos/README.md
+# assets/diagrams/
+# assets/screenshots/
+# ------------------------------------------------------------
+
+# Curated public demonstrations are intentionally tracked.
+!demos/**/*.mp4
+!demos/**/*.mov
+# Curated visual-grounding benchmark outputs are intentionally tracked.
+!modules/perception/visual_grounding/examples/outputs/
+!modules/perception/visual_grounding/examples/outputs/**
+!modules/perception/visual_grounding/results/
+!modules/perception/visual_grounding/results/final/
+!modules/perception/visual_grounding/results/final/**
+
+# Local model assets and service runtime files are never published.
+modules/perception/visual_grounding/models/
+modules/perception/visual_grounding/runtime/

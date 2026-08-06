@@ -1,0 +1,106 @@
+image_id,scenario_id,prompt,categories,spatial_relation,attribute_selection,multiple_reference_objects,multi_instance_or_ordinal,negation,occlusion,complex_instruction,spatial_operator_count
+vid_res_001_man_in_lobby_by_door_frame_01,vid_res_001,man by door,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_001_man_in_lobby_by_door_frame_02,vid_res_001,man by door,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_001_man_in_lobby_by_door_frame_03,vid_res_001,man by door,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_002_girl_sitting_in_lounge_frame_01,vid_res_002,girl sitting in lounge,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_002_girl_sitting_in_lounge_frame_02,vid_res_002,girl sitting in lounge,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_002_girl_sitting_in_lounge_frame_03,vid_res_002,girl sitting in lounge,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_004_table_with_flower_on_top_frame_01,vid_res_004,table flower on top,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_004_table_with_flower_on_top_frame_02,vid_res_004,table flower on top,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_004_table_with_flower_on_top_frame_03,vid_res_004,table flower on top,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_005_under_the_painting_frame_01,vid_res_005,white wall under painting,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_005_under_the_painting_frame_02,vid_res_005,white wall under painting,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_005_under_the_painting_frame_03,vid_res_005,wall under painting,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_006_man_by_the_elevator_green_shirt_frame_01,vid_res_006,man by the elevator green shirt,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_006_man_by_the_elevator_green_shirt_frame_02,vid_res_006,man by the elevator green shirt,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_006_man_by_the_elevator_green_shirt_frame_03,vid_res_006,man by the elevator green shirt,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_007_man_standing_by_table_frame_01,vid_res_007,man standing by table,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_007_man_standing_by_table_frame_02,vid_res_007,man standing by table,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_007_man_standing_by_table_frame_03,vid_res_007,man standing by table,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_008_man_standing_by_water_dispenser_frame_01,vid_res_008,man standing by water dispenser,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_008_man_standing_by_water_dispenser_frame_02,vid_res_008,man standing by water dispenser,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_008_man_standing_by_water_dispenser_frame_03,vid_res_008,man standing by water dispenser,All prompts | Spatial relation | Attribute selection | Complex instruction,True,True,False,False,False,False,True,1
+vid_res_009_door_on_the_right_frame_01,vid_res_009,door on the right,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_009_door_on_the_right_frame_02,vid_res_009,door on the right,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_009_door_on_the_right_frame_03,vid_res_009,door on the right,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_010_door_at_end_of_hallway_frame_01,vid_res_010,door at end of hallway,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_010_door_at_end_of_hallway_frame_02,vid_res_010,door at end of hallway,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_010_door_at_end_of_hallway_frame_03,vid_res_010,door at end of hallway,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_011_door_with_sign_frame_01,vid_res_011,door sign,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_011_door_with_sign_frame_02,vid_res_011,door sign,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_011_door_with_sign_frame_03,vid_res_011,door sign,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_012_elevator_call_button_frame_01,vid_res_012,elevator call button,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_012_elevator_call_button_frame_02,vid_res_012,elevator call button,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_012_elevator_call_button_frame_03,vid_res_012,elevator call button,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_013_plant_on_table_frame_01,vid_res_013,plant on table,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_013_plant_on_table_frame_02,vid_res_013,plant on table,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_013_plant_on_table_frame_03,vid_res_013,plant on table,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_014_package_by_the_chair_frame_01,vid_res_014,package beside the chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_014_package_by_the_chair_frame_02,vid_res_014,package beside the chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_014_package_by_the_chair_frame_03,vid_res_014,package beside the chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_015_package_on_the_chair_frame_01,vid_res_015,package on the chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_015_package_on_the_chair_frame_02,vid_res_015,package on the chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_015_package_on_the_chair_frame_03,vid_res_015,package on the chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_016_packages_on_floor_frame_01,vid_res_016,packages on floor,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_016_packages_on_floor_frame_02,vid_res_016,packages on floor,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_016_packages_on_floor_frame_03,vid_res_016,packages on floor,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_017_package_not_red_box_frame_01,vid_res_017,package not red,All prompts | Attribute selection | Negation | Complex instruction,False,True,False,False,True,False,True,0
+vid_res_017_package_not_red_box_frame_02,vid_res_017,package not red,All prompts | Attribute selection | Negation | Complex instruction,False,True,False,False,True,False,True,0
+vid_res_017_package_not_red_box_frame_03,vid_res_017,package not red,All prompts | Attribute selection | Negation | Complex instruction,False,True,False,False,True,False,True,0
+vid_res_018_package_hidden_by_chair_frame_01,vid_res_018,package partially covered by chair,All prompts | Spatial relation | Occlusion | Complex instruction,True,False,False,False,False,True,True,1
+vid_res_018_package_hidden_by_chair_frame_02,vid_res_018,package partially covered by chair,All prompts | Spatial relation | Occlusion | Complex instruction,True,False,False,False,False,True,True,1
+vid_res_018_package_hidden_by_chair_frame_03,vid_res_018,package partially covered by chair,All prompts | Spatial relation | Occlusion | Complex instruction,True,False,False,False,False,True,True,1
+vid_res_019_package_on_chair_frame_01,vid_res_019,package on chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_019_package_on_chair_frame_02,vid_res_019,package on chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_019_package_on_chair_frame_03,vid_res_019,package on chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_020_package_on_table_frame_01,vid_res_020,package on table,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_020_package_on_table_frame_02,vid_res_020,package on table,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_020_package_on_table_frame_03,vid_res_020,package on table,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_021_package_on_chair_frame_01,vid_res_021,package on chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_021_package_on_chair_frame_02,vid_res_021,package on chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_021_package_on_chair_frame_03,vid_res_021,package on chair,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_022_package_on_floor_frame_01,vid_res_022,package on floor,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_022_package_on_floor_frame_02,vid_res_022,package on floor,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_022_package_on_floor_frame_03,vid_res_022,package on floor,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_023_package_infront_of_the_books_frame_01,vid_res_023,package infront of the books,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_023_package_infront_of_the_books_frame_02,vid_res_023,package infront of the books,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_023_package_infront_of_the_books_frame_03,vid_res_023,package infront of the books,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_024_package_between_books_and_shoes_frame_01,vid_res_024,package between books and shoes,All prompts | Spatial relation | Multiple references | Complex instruction,True,False,True,False,False,False,True,1
+vid_res_024_package_between_books_and_shoes_frame_02,vid_res_024,package between books and shoes,All prompts | Spatial relation | Multiple references | Complex instruction,True,False,True,False,False,False,True,1
+vid_res_024_package_between_books_and_shoes_frame_03,vid_res_024,package between books and shoes,All prompts | Spatial relation | Multiple references | Complex instruction,True,False,True,False,False,False,True,1
+vid_res_025_package_by_elevator_frame_01,vid_res_025,package by elevator,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_025_package_by_elevator_frame_02,vid_res_025,package by elevator,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_025_package_by_elevator_frame_03,vid_res_025,package by elevator,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_026_package_by_wall_frame_01,vid_res_026,package by wall opposite elevator,All prompts | Spatial relation | Multiple references | Complex instruction,True,False,True,False,False,False,True,2
+vid_res_026_package_by_wall_frame_02,vid_res_026,package by wall opposite elevator,All prompts | Spatial relation | Multiple references | Complex instruction,True,False,True,False,False,False,True,2
+vid_res_026_package_by_wall_frame_03,vid_res_026,package by wall opposite elevator,All prompts | Spatial relation | Multiple references | Complex instruction,True,False,True,False,False,False,True,2
+vid_res_027_package_on_table_frame_01,vid_res_027,packages on table,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_027_package_on_table_frame_02,vid_res_027,packages on table,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_027_package_on_table_frame_03,vid_res_027,packages on table,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_028_package_by_door_right_frame_01,vid_res_028,package by door right,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_028_package_by_door_right_frame_02,vid_res_028,package by door right,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_028_package_by_door_right_frame_03,vid_res_028,package by door right,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_029_package_by_door_left_frame_01,vid_res_029,package by door left,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_029_package_by_door_left_frame_02,vid_res_029,package by door left,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_029_package_by_door_left_frame_03,vid_res_029,package by door left,All prompts | Spatial relation | Complex instruction,True,False,False,False,False,False,True,2
+vid_res_030_second_closest_package_frame_01,vid_res_030,second closest package,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_030_second_closest_package_frame_02,vid_res_030,second closest package,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_030_second_closest_package_frame_03,vid_res_030,second closest package,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_031_package_in_front_frame_01,vid_res_031,package in front,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_031_package_in_front_frame_02,vid_res_031,package in front,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_031_package_in_front_frame_03,vid_res_031,package in front,All prompts | Spatial relation,True,False,False,False,False,False,False,1
+vid_res_032_packages_by_chair_frame_01,vid_res_032,packages by chair,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_032_packages_by_chair_frame_02,vid_res_032,packages by chair,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_032_packages_by_chair_frame_03,vid_res_032,packages by chair,All prompts | Spatial relation | Multi-instance / ordinal | Complex instruction,True,False,False,True,False,False,True,1
+vid_res_033_man_in_blue_frame_01,vid_res_033,man in blue,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_033_man_in_blue_frame_02,vid_res_033,man in blue,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_033_man_in_blue_frame_03,vid_res_033,man in blue,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_034_man_in_grey_frame_01,vid_res_034,man in grey,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_034_man_in_grey_frame_02,vid_res_034,man in grey,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_034_man_in_grey_frame_03,vid_res_034,man in grey,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_035_woman_white_top_frame_01,vid_res_035,woman white top,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_035_woman_white_top_frame_02,vid_res_035,woman white top,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_035_woman_white_top_frame_03,vid_res_035,woman white top,All prompts | Attribute selection,False,True,False,False,False,False,False,0
+vid_res_036_elevator_button_panel_frame_01,vid_res_036,elevator button panel,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_036_elevator_button_panel_frame_02,vid_res_036,elevator button panel,All prompts | Direct target,False,False,False,False,False,False,False,0
+vid_res_036_elevator_button_panel_frame_03,vid_res_036,elevator button panel,All prompts | Direct target,False,False,False,False,False,False,False,0

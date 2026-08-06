@@ -1,0 +1,209 @@
+image_id,stage,status,selected_candidate,confidence,relation_match,region,reason
+vid_res_001_man_in_lobby_by_door_frame_01,initial,selected,1.0,0.86,True,,The person in C1 is standing right next to the door.
+vid_res_001_man_in_lobby_by_door_frame_01,refined,selected,1.0,0.86,True,,"The visible person is standing next to the door, matching 'man by door'."
+vid_res_001_man_in_lobby_by_door_frame_02,initial,selected,1.0,0.86,True,,"The only detected person is standing next to the door, matching the location hint."
+vid_res_001_man_in_lobby_by_door_frame_02,refined,selected,1.0,0.84,True,,"Single detected person is standing next to the door, matching 'man by door'."
+vid_res_001_man_in_lobby_by_door_frame_03,initial,selected,1.0,0.78,True,,Single person candidate is standing next to the door.
+vid_res_001_man_in_lobby_by_door_frame_03,refined,selected,1.0,0.86,True,,The single detected person is standing next to the door.
+vid_res_002_girl_sitting_in_lounge_frame_01,initial,selected,1.0,0.86,True,,"The single detected person is seated at a lounge table, matching the request."
+vid_res_002_girl_sitting_in_lounge_frame_01,refined,selected,2.0,0.72,False,,C2 explicitly matches 'girl sitting in lounge' and covers the seated person more completely than C1.
+vid_res_002_girl_sitting_in_lounge_frame_02,initial,selected,1.0,0.82,True,,"The only detected person is seated by the lounge tables, matching the request."
+vid_res_002_girl_sitting_in_lounge_frame_02,refined,selected,1.0,0.82,True,,"The candidate is a person seated at a table in the lounge area, matching 'girl sitting in lounge'."
+vid_res_002_girl_sitting_in_lounge_frame_03,initial,selected,2.0,0.72,False,,C2 explicitly matches 'girl sitting in lounge' and best fits the seated person in the lounge area.
+vid_res_002_girl_sitting_in_lounge_frame_03,refined,selected,1.0,0.8,True,,"The candidate shows a person (girl) seated in a lounge area, matching the command."
+vid_res_004_table_with_flower_on_top_frame_01,initial,failed,,0.18,False,,The only detected table (C1) has no flower on top; the table with a flower is in the back and not among candidates.
+vid_res_004_table_with_flower_on_top_frame_02,initial,refine,,0.74,False,"[760, 360, 1180, 720]",C1 is a table without a flower. The table with a flower on top is farther back near the window; refine search to this region.
+vid_res_004_table_with_flower_on_top_frame_02,refined,selected,1.0,0.78,True,,"C1 is the table that has a flower on top, matching the command."
+vid_res_004_table_with_flower_on_top_frame_03,initial,refine,,0.64,False,"[780, 360, 1100, 700]",The only candidate is a foreground table without a flower on top; the desired table with a flower is farther back near the window.
+vid_res_004_table_with_flower_on_top_frame_03,refined,selected,1.0,0.76,True,,C1 is the table with a flower placed on top; C2 is labeled as a desk and is less specific.
+vid_res_005_under_the_painting_frame_01,initial,refine,,0.72,False,"[1120, 520, 1520, 960]","Both candidates cover the left concrete wall; the command refers to the white wall under the framed paintings on the right, so propose a region there."
+vid_res_005_under_the_painting_frame_01,refined,selected,1.0,0.74,True,,"C1 encloses the white wall section directly beneath the framed painting, matching the relation."
+vid_res_005_under_the_painting_frame_02,initial,refine,,0.61,False,"[900, 560, 1160, 880]",Only candidate is a wall without a painting above it; proposing the white wall area directly below the framed painting at the center.
+vid_res_005_under_the_painting_frame_02,refined,selected,1.0,0.66,True,,"The box highlights the white wall area directly beneath the framed painting, matching the spatial relation."
+vid_res_005_under_the_painting_frame_03,initial,refine,,0.6,False,"[920, 660, 1280, 1000]",The only wall candidate is on the left and not under a painting; proposing the wall area below the centered painting on the white wall.
+vid_res_005_under_the_painting_frame_03,refined,selected,1.0,0.72,True,,The box highlights the section of wall directly beneath the painting.
+vid_res_006_man_by_the_elevator_green_shirt_frame_01,initial,selected,1.0,0.83,True,,"The only detected person is standing next to the elevator and is wearing a green shirt, matching the query."
+vid_res_006_man_by_the_elevator_green_shirt_frame_01,refined,selected,1.0,0.9,True,,Single detected person standing by the elevator wearing a green shirt.
+vid_res_006_man_by_the_elevator_green_shirt_frame_02,initial,selected,1.0,0.9,True,,Only visible person standing by the elevator wearing a green shirt.
+vid_res_006_man_by_the_elevator_green_shirt_frame_02,refined,selected,1.0,0.86,True,,Only detected person is standing by the elevator and wearing a green shirt.
+vid_res_006_man_by_the_elevator_green_shirt_frame_03,initial,selected,1.0,0.86,True,,The single detected person is standing by the elevator and is wearing a green shirt.
+vid_res_006_man_by_the_elevator_green_shirt_frame_03,refined,selected,1.0,0.86,True,,Only candidate shows a man in a green shirt standing by the elevator.
+vid_res_007_man_standing_by_table_frame_01,initial,selected,1.0,0.82,True,,"The single detected person is standing next to the table, matching the request."
+vid_res_007_man_standing_by_table_frame_01,refined,selected,1.0,0.78,True,,C1 shows the person who is standing next to the table.
+vid_res_007_man_standing_by_table_frame_02,initial,selected,1.0,0.82,True,,Single detected person is standing next to the long table.
+vid_res_007_man_standing_by_table_frame_02,refined,selected,1.0,0.78,True,,"The detected person is standing next to the long table with chairs, matching the command."
+vid_res_007_man_standing_by_table_frame_03,initial,selected,1.0,0.78,True,,"C1 shows the man standing next to a table, satisfying 'by table'."
+vid_res_007_man_standing_by_table_frame_03,refined,selected,1.0,0.78,True,,"The single detected person is standing next to the table in the foreground, matching the request."
+vid_res_008_man_standing_by_water_dispenser_frame_01,initial,selected,1.0,0.82,True,,"C1 captures the full person standing right next to the water dispenser, best matching the command."
+vid_res_008_man_standing_by_water_dispenser_frame_01,refined,selected,1.0,0.84,True,,C1 is the full person standing next to the water dispenser; other boxes are partial or not clearly a person.
+vid_res_008_man_standing_by_water_dispenser_frame_02,initial,selected,1.0,0.82,True,,Full-body person standing directly next to the water dispenser; other candidates are partial or unrelated.
+vid_res_008_man_standing_by_water_dispenser_frame_02,refined,selected,1.0,0.86,True,,"C1 captures the full standing person positioned directly beside the wall-mounted water dispenser, best matching the query."
+vid_res_008_man_standing_by_water_dispenser_frame_03,initial,selected,1.0,0.86,True,,The full-body person is clearly standing next to the water dispenser.
+vid_res_008_man_standing_by_water_dispenser_frame_03,refined,selected,1.0,0.82,True,,C1 encloses the full person who is clearly standing next to the water dispenser; other boxes do not capture a person.
+vid_res_009_door_on_the_right_frame_01,initial,selected,2.0,0.88,True,,"C2 is the door located at the far right edge of the image, matching the 'on the right' relation; C1 is more central."
+vid_res_009_door_on_the_right_frame_01,refined,selected,1.0,0.78,True,,"Among the detected doors, C1 is farther to the right side of the image than C2, matching the 'on the right' instruction."
+vid_res_009_door_on_the_right_frame_02,initial,selected,2.0,0.76,True,,C2 is the rightmost full door; C1 is central-left and C3 is a narrow part of the right door.
+vid_res_009_door_on_the_right_frame_02,refined,selected,2.0,0.84,True,,"C2 is the rightmost door and lies further to the right side of the image than C1, best matching 'on the right'."
+vid_res_009_door_on_the_right_frame_03,initial,selected,2.0,0.8,True,,"Candidate 2 is the door located farthest to the right in the image, matching the spatial instruction."
+vid_res_009_door_on_the_right_frame_03,refined,selected,1.0,0.84,True,,C1 is the rightmost door; C2 is positioned to its left.
+vid_res_010_door_at_end_of_hallway_frame_01,initial,selected,1.0,0.86,True,,"C1 is the door centered straight ahead at the end of the hallway, while C2 is a side door along the right wall."
+vid_res_010_door_at_end_of_hallway_frame_01,refined,selected,1.0,0.86,True,,"The single candidate encloses the door directly at the end of the hallway, matching the spatial instruction."
+vid_res_010_door_at_end_of_hallway_frame_02,initial,selected,1.0,0.84,True,,C1 is the door straight ahead at the end of the hallway; C2/C3 are side doors near the right wall.
+vid_res_010_door_at_end_of_hallway_frame_02,refined,selected,1.0,0.84,True,,"The single candidate boxes the door positioned at the end of the hallway, matching the command."
+vid_res_010_door_at_end_of_hallway_frame_03,initial,selected,1.0,0.78,True,,The door in C1 is straight ahead at the end of the hallway; C2 is a side wall door and C3 spans multiple objects.
+vid_res_010_door_at_end_of_hallway_frame_03,refined,selected,1.0,0.78,True,,"The boxed door is the one facing the viewer at the end of the hallway, matching the location hint."
+vid_res_011_door_with_sign_frame_01,initial,selected,3.0,0.8,False,,"The request is for a door sign; C3 specifically detects a door sign, while C1 and C2 are doors."
+vid_res_011_door_with_sign_frame_01,refined,selected,1.0,0.68,True,,Only candidate aligns with the door area that includes the sign on it.
+vid_res_011_door_with_sign_frame_02,initial,selected,3.0,0.64,False,,C3 is the door sign specified by the command.
+vid_res_011_door_with_sign_frame_02,refined,selected,1.0,0.62,False,,The only candidate corresponds to the door area with a visible sign/poster on it.
+vid_res_011_door_with_sign_frame_03,initial,selected,3.0,0.66,False,,C3 directly localizes the door sign referenced in the command.
+vid_res_011_door_with_sign_frame_03,refined,selected,1.0,0.72,True,,"C1 covers the portion of the door that has the sign on it, matching 'door sign'."
+vid_res_012_elevator_call_button_frame_01,initial,selected,4.0,0.62,True,,C4 focuses on the elevator area adjacent to the central call button panel; other boxes are overly broad or include the whole scene.
+vid_res_012_elevator_call_button_frame_01,refined,selected,2.0,0.78,True,,"C2 is explicitly the elevator call button, matching the command better than the elevator doors in C1."
+vid_res_012_elevator_call_button_frame_02,initial,selected,3.0,0.67,True,,"C3 tightly covers the central pillar with the elevator call button, while C1 and C2 are broader regions."
+vid_res_012_elevator_call_button_frame_02,refined,selected,2.0,0.78,False,,"C2 precisely marks the elevator call button, which directly matches the request."
+vid_res_012_elevator_call_button_frame_03,initial,selected,4.0,0.75,False,,C4 directly matches the command 'elevator call button' and tightly bounds the button panel.
+vid_res_012_elevator_call_button_frame_03,refined,refine,,0.78,False,"[900, 350, 1150, 700]",The visible elevator call button is on the white panel at mid-right; provided region since the small candidates on the door edge do not match.
+vid_res_013_plant_on_table_frame_01,initial,selected,1.0,0.82,True,,C1 encloses the main plant that is clearly on the round table; C2 is a floor plant and C3 is a partial crop of the same table plant.
+vid_res_013_plant_on_table_frame_01,refined,selected,1.0,0.72,True,,C1 best covers the plant positioned on the small round table; C3 is on the floor and C2 crops the lower part.
+vid_res_013_plant_on_table_frame_02,initial,selected,3.0,0.76,True,,C3 tightly encloses the plant placed on the round table; C2 is on the floor and C1 includes extra areas beyond the table.
+vid_res_013_plant_on_table_frame_02,refined,selected,2.0,0.72,True,,C2 tightly covers the plant that sits on the round table; C3 is on the floor and C1 is broader and includes non-plant/table areas.
+vid_res_013_plant_on_table_frame_03,initial,selected,3.0,0.8,True,,"C3 tightly covers the central plant that is on the round table; C2 is a separate plant on the floor, and C1 is a looser box."
+vid_res_013_plant_on_table_frame_03,refined,selected,2.0,0.74,True,,C2 tightly covers the plant sitting on the round table; C1 is broader and C3 is a plant on the floor.
+vid_res_014_package_by_the_chair_frame_01,initial,selected,5.0,0.78,True,,C5 is the only box positioned directly beside the chair; other boxes are far away.
+vid_res_014_package_by_the_chair_frame_01,refined,selected,1.0,0.86,True,,"The detected box (C1) is positioned directly beside the chair, matching the relational prompt."
+vid_res_014_package_by_the_chair_frame_02,initial,refine,,0.74,False,"[1320, 560, 1520, 740]",All candidates are center-left boxes; the package beside the chair is on the right and not covered. Proposing a region next to the chair.
+vid_res_014_package_by_the_chair_frame_02,refined,selected,1.0,0.82,True,,"Candidate C1 is a box directly next to the chair, matching the 'package beside the chair' relation."
+vid_res_014_package_by_the_chair_frame_03,initial,selected,4.0,0.82,True,,C4 is the only package located directly beside the chair; other boxes are grouped far to the left.
+vid_res_014_package_by_the_chair_frame_03,refined,selected,1.0,0.78,True,,C1 is a package positioned immediately beside the chair on its left.
+vid_res_015_package_on_the_chair_frame_01,initial,selected,4.0,0.82,True,,C4 is the package placed on the chair seat; others are on the floor.
+vid_res_015_package_on_the_chair_frame_01,refined,selected,1.0,0.82,True,,"C1 is the box/package located on the seat of the chair, satisfying the 'on chair' relation."
+vid_res_015_package_on_the_chair_frame_02,initial,selected,4.0,0.92,True,,C4 is the only package positioned on the chair; the others are on the floor.
+vid_res_015_package_on_the_chair_frame_02,refined,selected,1.0,0.82,True,,"The candidate is a package clearly placed on the chair seat, matching the relation."
+vid_res_015_package_on_the_chair_frame_03,initial,selected,4.0,0.9,True,,C4 is the only package located on the chair seat; others are on the floor.
+vid_res_015_package_on_the_chair_frame_03,refined,selected,1.0,0.83,True,,"The detected box is on the chair seat, matching the request for the package on the chair."
+vid_res_016_packages_on_floor_frame_01,initial,selected,5.0,0.66,True,,C5 is a package located on the floor; C4 is on the chair and others are labeled as boxes.
+vid_res_016_packages_on_floor_frame_01,refined,selected,1.0,0.68,True,,"Candidate C1 is a package lying on the floor, matching the location hint."
+vid_res_016_packages_on_floor_frame_02,initial,selected,1.0,0.74,True,,C1 is a package clearly resting on the floor; C4 is on the chair and C3 is higher off the floor.
+vid_res_016_packages_on_floor_frame_02,refined,selected,1.0,0.68,True,,"C1 is a box located on the floor, matching the target 'package on floor'."
+vid_res_016_packages_on_floor_frame_03,initial,selected,1.0,0.78,True,,C1 is a cardboard package clearly resting on the floor; C4 is on the chair while C2/C3 also fit but C1 is the clearest floor package.
+vid_res_016_packages_on_floor_frame_03,refined,selected,1.0,0.7,True,,"C1 is a package on the floor in front of the chair, matching the command."
+vid_res_017_package_not_red_box_frame_01,initial,selected,1.0,0.73,False,,"The command asks for the package that is not red; C1 is the brown box, while C2 is red/orange."
+vid_res_017_package_not_red_box_frame_01,refined,selected,1.0,0.84,True,,"C1 is the non-red package (cardboard with yellow tape), matching 'package not red'."
+vid_res_017_package_not_red_box_frame_02,initial,selected,1.0,0.78,True,,"C1 is a brown cardboard package, not red; C2 is red."
+vid_res_017_package_not_red_box_frame_02,refined,selected,1.0,0.73,True,,C1 covers the non-red cardboard package; the other package present is red and excluded by the command.
+vid_res_017_package_not_red_box_frame_03,initial,selected,1.0,0.78,False,,C1 is the brown cardboard package (not red); C2 is the red/orange box.
+vid_res_017_package_not_red_box_frame_03,refined,selected,1.0,0.82,True,,"Selected the brown cardboard package, which is not red."
+vid_res_018_package_hidden_by_chair_frame_01,initial,selected,3.0,0.71,True,,"Box partly hidden behind the left armchair, matching a package by and partially covered by a chair."
+vid_res_018_package_hidden_by_chair_frame_01,refined,selected,3.0,0.73,True,,"C3 is the box peeking out from behind the left chair, partially occluded by it."
+vid_res_018_package_hidden_by_chair_frame_02,initial,selected,5.0,0.72,True,,"C5 is a box on the floor that is visibly occluded by the nearby chair, matching 'package partially covered by chair'."
+vid_res_018_package_hidden_by_chair_frame_02,refined,selected,2.0,0.78,True,,C2 shows a package partially occluded by the nearby chair; C1 is mostly unobstructed.
+vid_res_018_package_hidden_by_chair_frame_03,initial,selected,1.0,0.78,True,,The right floor package is partially occluded by the nearby beige chair; other boxes are on the shelf or not covered.
+vid_res_018_package_hidden_by_chair_frame_03,refined,selected,1.0,0.73,True,,C1 is the package next to the right chair and is partially occluded by it; C2 is not covered by a chair.
+vid_res_019_package_on_chair_frame_01,initial,selected,4.0,0.86,True,,C4 is the package clearly placed on the chair seat; others are on the floor.
+vid_res_019_package_on_chair_frame_01,refined,selected,1.0,0.82,True,,"The box-shaped package is clearly on the chair seat, matching the spatial instruction."
+vid_res_019_package_on_chair_frame_02,initial,selected,4.0,0.86,True,,C4 is the package on the chair; the others are on the floor.
+vid_res_019_package_on_chair_frame_02,refined,selected,1.0,0.82,True,,The cardboard package is on the chair seat and matches the location hint.
+vid_res_019_package_on_chair_frame_03,initial,selected,4.0,0.9,True,,C4 is the only box positioned on the chair; other candidates are on the floor.
+vid_res_019_package_on_chair_frame_03,refined,selected,1.0,0.86,True,"[1016, 349, 1226, 468]","The detected box (C1) is clearly on the chair, matching 'package on chair'."
+vid_res_020_package_on_table_frame_01,initial,selected,1.0,0.86,True,,Candidate 1 is a package placed on the tabletop; others are on a chair and on the floor.
+vid_res_020_package_on_table_frame_01,refined,selected,1.0,0.82,True,,"C1 is the package located on the table, matching the spatial hint."
+vid_res_020_package_on_table_frame_02,initial,selected,2.0,0.86,True,,C2 is the only package positioned on the table; C1 is on the floor and C3 is on a chair.
+vid_res_020_package_on_table_frame_02,refined,selected,1.0,0.88,True,,"The single candidate is the package on top of the table, satisfying the relation."
+vid_res_020_package_on_table_frame_03,initial,selected,1.0,0.74,True,,Candidate 1 is a package placed on the round table; Candidate 2 is on the floor.
+vid_res_020_package_on_table_frame_03,refined,selected,1.0,0.78,True,,C1 tightly covers the package sitting on the tabletop; C2 denotes an area by the table rather than a specific package on it.
+vid_res_021_package_on_chair_frame_01,initial,failed,,0.86,False,,No candidate matches 'package on chair'; C1 and C3 are on tables and C2 is on the floor.
+vid_res_021_package_on_chair_frame_02,initial,selected,3.0,0.82,True,,C3 is a package placed on a chair seat; C1 is on the floor and C2 is on the table.
+vid_res_021_package_on_chair_frame_02,refined,selected,1.0,0.86,True,,Box on the left chair matches 'package on chair'.
+vid_res_021_package_on_chair_frame_03,initial,refine,,0.7,False,"[560, 360, 780, 520]","Existing candidates show boxes on the table and floor, not on a chair. The package on the left chair seat is here."
+vid_res_021_package_on_chair_frame_03,refined,selected,1.0,0.74,True,,"C1 encloses the package sitting on the left chair, satisfying the 'on chair' relation."
+vid_res_022_package_on_floor_frame_01,initial,selected,2.0,0.86,True,,C2 is the package located on the floor; other boxes are on furniture.
+vid_res_022_package_on_floor_frame_01,refined,selected,1.0,0.78,True,,"The boxed package at the bottom right is clearly on the floor, matching the command."
+vid_res_022_package_on_floor_frame_02,initial,selected,1.0,0.9,True,,C1 is a cardboard package resting on the floor; C2 is on the table and C3 is on a chair.
+vid_res_022_package_on_floor_frame_02,refined,selected,1.0,0.82,True,,Candidate C1 is the package located on the floor; other packages are on furniture.
+vid_res_022_package_on_floor_frame_03,initial,selected,2.0,0.86,True,,C2 is a cardboard package placed on the floor; C1 is on the table.
+vid_res_022_package_on_floor_frame_03,refined,selected,1.0,0.86,True,,The only detected box-shaped package is clearly on the floor at the bottom-right.
+vid_res_023_package_infront_of_the_books_frame_01,initial,selected,2.0,0.76,True,,"C2 is the small package directly in front of the stack of books, overlapping horizontally and positioned closer to the camera."
+vid_res_023_package_infront_of_the_books_frame_01,refined,selected,2.0,0.78,True,,C2 is the package positioned directly in front of the stack of books; C1 is under/behind the books.
+vid_res_023_package_infront_of_the_books_frame_02,initial,selected,3.0,0.72,True,,C3 is the small package positioned directly in front of the stack of books on the middle box.
+vid_res_023_package_infront_of_the_books_frame_02,refined,selected,2.0,0.64,True,,C2 is the package on the floor directly in front of the books; C1 is adjacent/behind.
+vid_res_023_package_infront_of_the_books_frame_03,initial,selected,5.0,0.67,True,,Candidate C5 is a small package directly in front of the box containing books.
+vid_res_023_package_infront_of_the_books_frame_03,refined,selected,1.0,0.7,True,,The package on the floor is directly in front of the stack of books.
+vid_res_024_package_between_books_and_shoes_frame_01,initial,selected,3.0,0.79,True,,C3 is the cardboard box situated between the stack of books on the left and the shoes on the right.
+vid_res_024_package_between_books_and_shoes_frame_01,refined,selected,4.0,0.77,True,,C4 tightly bounds the package on the floor situated between the stack of books on the left and the shoes on the right.
+vid_res_024_package_between_books_and_shoes_frame_02,initial,selected,4.0,0.78,True,,C4 is the shipping box positioned between the stack of books on the left and the shoes on the right.
+vid_res_024_package_between_books_and_shoes_frame_02,refined,selected,1.0,0.84,True,,C1 is the package positioned between the stack of books on the left and the shoes on the right; C2 is closer to the books and not clearly between them and the shoes.
+vid_res_024_package_between_books_and_shoes_frame_03,initial,selected,3.0,0.82,True,,The package at C3 is positioned between the stack of books on the box to its left and the shoes to its right.
+vid_res_024_package_between_books_and_shoes_frame_03,refined,selected,1.0,0.75,True,,"C1 is the package located directly between the stack of books on the left and the shoes on the right; C2 lies within the book area, not between books and shoes."
+vid_res_025_package_by_elevator_frame_01,initial,selected,1.0,0.74,True,,"The small cardboard box (package) is directly next to the elevator doors on the left, best matching 'package by elevator'."
+vid_res_025_package_by_elevator_frame_01,refined,selected,1.0,0.86,True,,"The boxed package is positioned immediately next to the elevator door, matching 'package by elevator'."
+vid_res_025_package_by_elevator_frame_02,initial,selected,1.0,0.8,True,,"Cardboard box is directly next to the elevator door, matching 'package by elevator'."
+vid_res_025_package_by_elevator_frame_02,refined,selected,1.0,0.8,True,,"The boxed package is right beside the elevator door, matching the command."
+vid_res_025_package_by_elevator_frame_03,initial,selected,1.0,0.82,True,,"The detected cardboard package is positioned directly next to the elevator door, matching 'package by elevator'."
+vid_res_025_package_by_elevator_frame_03,refined,selected,1.0,0.82,True,,"The detected package is placed directly beside the elevator door, matching the spatial clue."
+vid_res_026_package_by_wall_frame_01,initial,refine,,0.64,True,"[1350, 520, 1650, 780]","C1 is beside the elevator, but the target is the package by the wall opposite the elevator on the right; propose region over that area."
+vid_res_026_package_by_wall_frame_01,refined,selected,1.0,0.83,True,,"C1 shows packages placed against the right wall across from the elevator, matching 'by wall opposite elevator'."
+vid_res_026_package_by_wall_frame_02,initial,refine,,0.76,True,"[1320, 560, 1670, 900]","C1 is next to the elevator, but the requested package is by the wall opposite the elevator (right side). Proposing region around that package."
+vid_res_026_package_by_wall_frame_02,refined,selected,1.0,0.82,True,,"C1 shows the package placed along the right wall, opposite the elevator doors."
+vid_res_026_package_by_wall_frame_03,initial,refine,,0.34,False,"[1180, 560, 1480, 880]","The only candidate is by the elevator, but the command asks for the package by the wall opposite the elevator; suggest refining to the right-wall package region."
+vid_res_026_package_by_wall_frame_03,refined,selected,1.0,0.82,True,,"The detected package is along the right wall, which is opposite the elevator doors."
+vid_res_027_package_on_table_frame_01,initial,selected,2.0,0.83,True,,"C2 tightly covers the coffee table that has packages placed on it, satisfying 'packages on table'. Other candidates are too broad or not tables."
+vid_res_027_package_on_table_frame_01,refined,selected,3.0,0.8,True,,C3 best matches the table that has packages on it; other candidates are broader desk regions.
+vid_res_027_package_on_table_frame_02,initial,selected,1.0,0.79,True,,This table clearly has packages on it; C3 captures only the tabletop and C2 is a desk.
+vid_res_027_package_on_table_frame_02,refined,selected,3.0,0.78,True,,"C3 tightly covers the table surface with packages on it, matching the command; other candidates are broader or miss the relation."
+vid_res_027_package_on_table_frame_03,initial,selected,1.0,0.78,True,,"C1 is the table that has packages on its surface; it covers the full table, matching the command better than the desk or the partial top-only box."
+vid_res_027_package_on_table_frame_03,refined,selected,4.0,0.82,True,,"C4 best matches a table with packages on it, tightly covering the tabletop where the packages are placed."
+vid_res_028_package_by_door_right_frame_01,initial,selected,1.0,0.74,True,,C1 is directly adjacent to the right side of the door; C2 is farther away near the corner.
+vid_res_028_package_by_door_right_frame_01,refined,selected,1.0,0.78,True,,"The box in C1 is positioned immediately to the right of the door, matching 'package by door right'."
+vid_res_028_package_by_door_right_frame_02,initial,selected,1.0,0.84,True,,C1 is the package immediately to the right side of the door; C2 is farther away near the wall.
+vid_res_028_package_by_door_right_frame_02,refined,selected,1.0,0.86,True,,The box is directly next to the right side of the door.
+vid_res_028_package_by_door_right_frame_03,initial,selected,2.0,0.78,True,,C2 is the package on the right side of the door; C1 is on the left.
+vid_res_028_package_by_door_right_frame_03,refined,selected,1.0,0.66,True,,C1 is a package positioned to the right side of the door.
+vid_res_029_package_by_door_left_frame_01,initial,selected,1.0,0.78,True,,"C1 is the package positioned immediately to the left of the door, best matching 'by door left'."
+vid_res_029_package_by_door_left_frame_01,refined,selected,1.0,0.72,True,,"The only detected package (C1) is placed near the door on its left side, matching 'by door left'."
+vid_res_029_package_by_door_left_frame_02,initial,selected,1.0,0.68,True,,"The cardboard box (package) is positioned on the left side of the central door, matching 'by door left'."
+vid_res_029_package_by_door_left_frame_02,refined,selected,1.0,0.78,True,,The detected box is the package placed next to the left of the two visible doors on the right wall.
+vid_res_029_package_by_door_left_frame_03,initial,selected,1.0,0.74,True,,C1 is a package positioned immediately to the left of the door; C2 is farther down the hallway and less clearly by the door.
+vid_res_029_package_by_door_left_frame_03,refined,selected,1.0,0.67,True,,C1 is the package positioned immediately to the left of the door.
+vid_res_030_second_closest_package_frame_01,initial,refine,,0.74,False,"[730, 750, 880, 825]",The second closest package is the middle box between C2 (closest) and C1 (farthest); it has no candidate. Suggest refining this region.
+vid_res_030_second_closest_package_frame_01,refined,selected,1.0,0.74,True,,"C1 is the middle of the three packages on the floor, making it the second closest to the viewer."
+vid_res_030_second_closest_package_frame_02,initial,selected,1.0,0.62,True,,"C1 marks the package farther from the camera, making it the second closest among the visible packages."
+vid_res_030_second_closest_package_frame_02,refined,refine,,0.58,True,"[640, 740, 880, 920]",Only one candidate exists and it is farther away; the second closest package is just behind the frontmost boxes at lower-left. Propose refinement in this region.
+vid_res_030_second_closest_package_frame_03,initial,selected,1.0,0.8,True,,"Among the two packages, C2 is closest (lowest in the frame). C1 is farther toward the door, making it the second closest."
+vid_res_030_second_closest_package_frame_03,refined,refine,,0.38,False,"[560, 700, 820, 900]","Only one candidate box is detected, but the request is for the second closest package. The visible second-closest package is the mid-left box between the nearest and the door-side stack; suggest refining around this region."
+vid_res_031_package_in_front_frame_01,initial,selected,2.0,0.78,True,,"C2 is the package closest to the camera, i.e., in the front/foreground of the scene; C1 is farther away."
+vid_res_031_package_in_front_frame_01,refined,selected,2.0,0.72,True,,"C2 is lower in the frame and closer to the camera, matching the 'in front' package."
+vid_res_031_package_in_front_frame_02,initial,selected,1.0,0.72,True,,"The cardboard box (package) is directly ahead in the hallway, matching 'in front'."
+vid_res_031_package_in_front_frame_02,refined,selected,1.0,0.66,True,,Only detected package; it is directly in front along the hallway.
+vid_res_031_package_in_front_frame_03,initial,selected,2.0,0.74,True,,"C2 is the package closest to the camera (in front), appearing lower in the frame than C1."
+vid_res_031_package_in_front_frame_03,refined,selected,1.0,0.72,True,,"C1 is the closest package in the foreground (lower in the image), matching 'in front' better than C2."
+vid_res_032_packages_by_chair_frame_01,initial,selected,2.0,0.83,True,,"C2 is the chair located next to multiple packages on the floor, matching 'packages by chair' better than C1."
+vid_res_032_packages_by_chair_frame_01,refined,selected,1.0,0.78,True,,The only detected chair is directly next to the packages on the floor.
+vid_res_032_packages_by_chair_frame_02,initial,selected,2.0,0.78,True,,"The left chair (C2) is next to multiple packages on the floor, while the right chair is not near any."
+vid_res_032_packages_by_chair_frame_02,refined,selected,1.0,0.76,True,,"The single chair candidate is adjacent to visible packages on the floor, matching 'packages by chair'."
+vid_res_032_packages_by_chair_frame_03,initial,selected,2.0,0.78,True,,C2 is the chair closest to the packages on the floor; other chairs are farther away.
+vid_res_032_packages_by_chair_frame_03,refined,selected,1.0,0.68,True,,C1 is the only detected chair and it is next to packages on the floor.
+vid_res_033_man_in_blue_frame_01,initial,selected,3.0,0.68,False,,C3 contains the man wearing a bright blue suit; other candidates are not clearly blue.
+vid_res_033_man_in_blue_frame_01,refined,selected,1.0,0.8,True,,C1 encloses the man wearing a blue suit on the right; other candidates are smaller or not clearly in blue.
+vid_res_033_man_in_blue_frame_02,initial,refine,,0.66,False,"[980, 260, 1240, 990]",C1 is a person but not wearing blue. The man in blue is to the right; proposing a coarse region around him.
+vid_res_033_man_in_blue_frame_02,refined,selected,1.0,0.78,False,,C1 encloses the man wearing a blue suit; other candidates are smaller or not blue.
+vid_res_033_man_in_blue_frame_03,initial,selected,1.0,0.66,False,,C1 best matches a man wearing a blue suit; other candidates are not clearly in blue.
+vid_res_033_man_in_blue_frame_03,refined,selected,1.0,0.68,True,,"C1 shows the person in a bright blue suit, best matching 'man in blue'."
+vid_res_034_man_in_grey_frame_01,initial,selected,1.0,0.78,True,,"C1 shows the central person wearing a grey suit, best matching 'man in grey' compared to C2."
+vid_res_034_man_in_grey_frame_01,refined,selected,1.0,0.86,True,,C1 is the prominent man wearing a grey suit at the center; C2 appears darker/blue and less clearly grey.
+vid_res_034_man_in_grey_frame_02,initial,selected,1.0,0.82,False,,"C1 shows a man wearing a grey suit; C2 is mostly dark jacket with light pants, not clearly grey."
+vid_res_034_man_in_grey_frame_02,refined,selected,1.0,0.86,False,,C1 is the central person wearing a grey suit; C2 appears to be wearing blue.
+vid_res_034_man_in_grey_frame_03,initial,selected,1.0,0.78,False,,C1 shows the central-right person clearly wearing a grey suit; other candidates are not grey.
+vid_res_034_man_in_grey_frame_03,refined,selected,1.0,0.86,False,,C1 is the person clearly wearing a grey suit; C2 appears in a darker/blue outfit.
+vid_res_035_woman_white_top_frame_01,initial,selected,1.0,0.78,False,,"C1 shows the leftmost person wearing a white top, matching 'woman white top'; others do not wear white."
+vid_res_035_woman_white_top_frame_01,refined,selected,1.0,0.78,True,,"Candidate C1 shows a person wearing a white top on the left, matching 'woman white top'."
+vid_res_035_woman_white_top_frame_02,initial,selected,4.0,0.75,False,,"C4 best covers the woman wearing a white top near center-right, matching the request more completely than other candidates."
+vid_res_035_woman_white_top_frame_02,refined,selected,1.0,0.68,False,,The only detected person candidate appears to be a woman wearing a white top.
+vid_res_035_woman_white_top_frame_03,initial,selected,2.0,0.66,False,,C2 best matches the woman wearing a white top/jacket visible near the left-center.
+vid_res_035_woman_white_top_frame_03,refined,selected,1.0,0.72,True,,C1 matches the woman wearing a white top; C2 does not.
+vid_res_036_elevator_button_panel_frame_01,initial,selected,3.0,0.74,False,,"C3 tightly encloses the entire elevator button panel, while C1 and C4 are single buttons and C2 is overly large including surrounding wall."
+vid_res_036_elevator_button_panel_frame_01,refined,refine,,0.78,False,"[720, 120, 1220, 1040]","Candidates mark individual buttons, not the full elevator button panel. Proposing a region that covers the entire panel."
+vid_res_036_elevator_button_panel_frame_02,initial,selected,1.0,0.9,True,,The single candidate clearly encloses the elevator button panel.
+vid_res_036_elevator_button_panel_frame_02,refined,selected,2.0,0.86,True,,"C2 tightly encloses the elevator buttons, representing the button panel, while C1 includes a broader surrounding area."
+vid_res_036_elevator_button_panel_frame_03,initial,selected,1.0,0.86,True,,Single visible candidate matches an elevator button panel on the right interior wall.
+vid_res_036_elevator_button_panel_frame_03,refined,selected,2.0,0.84,False,,C2 encloses the entire elevator button panel; other candidates are single buttons or partial sections.

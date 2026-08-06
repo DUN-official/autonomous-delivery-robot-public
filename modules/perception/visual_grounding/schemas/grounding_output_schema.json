@@ -1,0 +1,47 @@
+{
+  "schema_name": "GroundingOutput",
+  "version": "day1_v0",
+  "description": "Structured output for visual grounding model results.",
+  "fields": {
+    "run_id": "string",
+    "model_name": "string",
+    "image_id": "string",
+    "image_path": "string",
+    "ground_truth_image_path": "string",
+    "command_id": "string",
+    "prompt": "string",
+    "target_label": "string",
+    "target_type": "person | package | landmark | door | region | other",
+    "bbox_xyxy": {
+      "type": "array",
+      "description": "Bounding box as [x1, y1, x2, y2] in image pixel coordinates."
+    },
+    "ground_truth_bbox_xyxy": {
+      "type": "array",
+      "description": "Ground truth bounding box as [x1, y1, x2, y2] in image pixel coordinates."
+    },
+    "iou": "number",
+    "confidence": "number",
+    "explanation": "string",
+    "grounding_status": "success | ambiguous | low_confidence | not_visible | failed",
+    "notes": "string"
+  },
+  "example": {
+    "run_id": "run_001",
+    "model_name": "Grounding_DINO",
+    "image_id": "vid_res_001_man_in_lobby_by_door_frame_01",
+    "image_path": "examples/residence_images/vid_res_001_man_in_lobby_by_door_frame_01.jpg",
+    "ground_truth_image_path": "examples/ground_truth_annotated/vid_res_001_man_in_lobby_by_door_frame_01.jpg",
+    "command_id": "cmd_res_001",
+    "prompt": "Find the man in the lobby by the door.",
+    "target_label": "man",
+    "target_type": "person",
+    "bbox_xyxy": [120, 80, 340, 520],
+    "ground_truth_bbox_xyxy": [968, 158, 1919, 897],
+    "iou": 0.62,
+    "confidence": 0.84,
+    "explanation": "The selected person matches the prompt target in the lobby scene.",
+    "grounding_status": "success",
+    "notes": "Residence benchmark frame."
+  }
+}
