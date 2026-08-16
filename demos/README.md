@@ -32,7 +32,7 @@ The public videos are organized by capability. Phase labels are included only to
 | Demonstration | Mode | Instruction |
 |---|---|---|
 | [Toy car beside a water bottle](visual_grounding/recorded_toy_car_tracking.mp4) | Recorded video | `track the toy car beside green water bottle` |
-| [Robot cube](visual_grounding/live_robot_cube_tracking.mp4) | Live camera | `look for the robot cube` |
+| [RUBIX cube](visual_grounding/live_robot_cube_tracking.mp4) | Live camera | `look for the RUBIX cube` |
 | [Package on the floor](visual_grounding/package_on_floor.mp4) | Recorded video | `find the package on the floor` |
 | [Door at the end of a hallway](visual_grounding/hallway_door.mp4) | Recorded video | `go to the door at the end of the hallway` |
 | [Grey door](visual_grounding/grey_door.mp4) | Recorded video | `look for the grey door` |
